@@ -1,7 +1,7 @@
 ---
 title: Secure Data Exchange (SDX)
 ---
-# Getting started with Connected Services
+# Building trusted digital services
 
 ## Secure Data Exchange (SDX)
 

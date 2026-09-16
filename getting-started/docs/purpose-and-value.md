@@ -1,55 +1,78 @@
 ---
-title: Purpose and value 
+title: Purpose and value
 ---
-# Getting started with Connected Services
+# Building trusted digital services
 
-## Purpose and value 
+## Purpose and value
 
-Government programs often need information that already exists in another ministry or system. 
+Government programs often need information that already exists in another ministry or system.
 
-Today, this can result in delays, duplicate integrations, repeated data collection, inconsistent definitions, and manual verification processes. 
+Today, this can cause real problems:
 
-_Connected Services_ aims to improve service delivery by reducing duplication, supporting secure reuse of trusted data across government, and strengthening interoperability across ministries. 
+- Delays
+- Duplicate integrations
+- Repeated data collection
+- Inconsistent definitions
+- Manual verification processes
 
-It does this by establishing common building blocks that enable:
+Connected Services BC is working toward a future where people and businesses experience government services as simple and connected. This is true regardless of which ministry or program is behind them. Delivering on that vision requires developers and program teams to connect, share, and reuse trusted data across government. This needs to happen securely and consistently.
+
+This works through common building blocks that enable:
 
 - [Access to authoritative data](authoritative-data-register.md)
 - [Reusable eligibility checks](/catalogue?filters%5Bkind%5D=api&filters%5Btags%5D=eligibility-factor-verification)
 - [Secure, policy-aligned data exchange](secure-data-exchange.md)
-- [Centralized discovery of APIs and datasets](/catalogue?filters%5Bkind%5D=api&filters%5Btags%5D=authoritative-data)
+- Dataset discovery
+- Documentation that helps you understand what's available across these areas
 
-As these capabilities become available, teams will be able to use (and reuse) standardized components instead of building one-off integrations. 
+As these capabilities become available, they're designed to support both sides of this work: data providers who register, maintain, and share trusted data, and data consumers who access and reuse it. One of the aims of this work is a clear, easy path to discovering trusted data, replacing today's reality of word of mouth and manual digging to find the right source or contact. Over time, this means less duplicate effort for providers publishing the same data multiple ways, and fewer one-off integrations for consumers trying to access what they need. Teams will be able to use and reuse standardized components on both sides of that journey.
 
-### What this means for you 
+See [Trusted digital service building blocks](building-blocks.md) for more on how these components work together, and [Roles and responsibilities](roles-and-responsibilities.md) for how provider and consumer roles fit into this work.
 
-For developers, Connected Services supports: 
+### A quick example
 
-- Faster integrations with reusable components 
-- Reduced custom validation logic 
-- Access to governed and trusted data sources 
-- Consistent integration guidance and sandbox environments 
+Say a ministry is launching a new income-support program. It needs to confirm applicants meet an income requirement.
 
-For product owners and program leads, Connected Services supports: 
+Today, this usually means the applicant uploads tax documents. Staff then manually review them as part of the application.
 
-- Clear data ownership and accountability 
-- Reduced duplication of datasets 
-- More consistent eligibility decisions 
-- Scalable cross-ministry service design 
+Eligibility Factor Verification (EFV) is developing an income verification check, its first eligibility factor. In time, a program may be able to request that check directly, instead of asking applicants to upload documents. This is still in development, and available factors will depend on program need, data source agreements, and policy requirements.
 
-For data custodians, data managers, and data providers, Connected Services supports: 
+That's the value these building blocks are working toward: less duplicate work, more consistent decisions, and secure, accountable data reuse.
 
-- Clear designation of authoritative data 
-- Defined access and reuse policies 
-- Reduced ad hoc data-sharing requests 
-- Improved visibility into how data is used 
-- Structured governance processes for oversight and accountability 
+### What this means for you
 
-Connected Services establishes common foundations that support more consistent, secure, and interoperable digital services across government. 
+Right now, these building blocks exist as documentation. Progress is being made iteratively, and each area is open to conversations about opportunities and current status.
 
-Capabilities are being introduced iteratively. Availability of specific components will expand over time. 
+As functionality increases, the future state vision includes the following.
 
-### Explore the components 
+For developers, these building blocks will support:
 
-Connected Services is delivered through reusable building blocks. 
+- Faster integrations with reusable components
+- Reduced custom validation logic
+- Access to governed and trusted data sources
+- Consistent integration guidance and sandbox environments
 
-To see how these components work together, review [Connected Services building blocks](building-blocks.md). 
+For product owners and program leads, they will support:
+
+- Clear data ownership and accountability
+- Reduced duplication of datasets
+- More consistent eligibility decisions
+- Scalable cross-ministry service design
+
+For data custodians, data managers, and data providers, they will support:
+
+- Clear designation of authoritative data
+- Defined access and reuse policies
+- Reduced ad hoc data-sharing requests
+- Improved visibility into how data is used
+- Structured governance processes for oversight and accountability
+
+Together, these building blocks are intended to give developers and program teams what they need. The result: digital services that are consistent, secure, and work well together across government, in line with Connected Services BC's vision.
+
+Capabilities are being introduced iteratively. The availability of specific components will expand over time.
+
+### Explore the components
+
+A trusted digital service is delivered through reusable building blocks.
+
+To see how these components work together, review [Trusted digital service building blocks](building-blocks.md).

@@ -1,75 +1,77 @@
 ---
-title: Privacy and security 
+title: Privacy and security
 ---
-# Getting started with Connected Services
+# Building trusted digital services
 
-## Privacy and security 
+## Privacy and security
 
-_Connected Services_ is built on a secure, policy-driven trust foundation. 
+Secure Data Exchange (SDX) provides the secure, policy-driven trust foundation for data exchange that crosses privacy zones between organizations or that involves private information. For data exchange that doesn't meet that bar, the API Services Portal may be the right path instead. See [API Services Portal documentation](/docs/default/component/aps-infra-platform-docs/) for its approach to access and security.
 
-Data remains with the ministry that owns it. Connected Services does not centralize or store program data. Instead, it enables secure, auditable exchange between trusted systems. 
+This page describes the privacy and security model that applies when SDX is used.
 
-Privacy and security controls are embedded into the technical design, not added afterward. 
+SDX does not centralize or store program data. Data remains with the ministry or public body that owns it. Instead, it enables secure, auditable exchange between trusted systems.
 
-### Secure exchange by design 
+Privacy and security controls are embedded into the technical design, not added afterward.
 
-All data exchange within Connected Services occurs through _Secure Data Exchange_ (SDX), which enforces: 
+### Secure exchange by design
 
-- Authentication of participating systems 
-- Verification that requests are unaltered 
-- Real-time access control 
-- Timestamped logging of transactions 
+When data exchange crosses privacy zones between organizations or involves private information, it goes through Secure Data Exchange (SDX). SDX enforces these controls:
 
-These controls ensure that only authorized, policy-compliant requests are fulfilled. 
+- Authentication of participating systems
+- Verification that requests are unaltered
+- Real-time access control
+- Timestamped logging of transactions
 
-For technical details on how SDX implements these controls, including request verification and Edge Server architecture, see [Secure Data Exchange (SDX)](secure-data-exchange.md). 
+These controls ensure that only authorized, policy-compliant requests are fulfilled.
 
-### Data ownership and control 
+For technical details on how SDX implements these controls, including request verification and Edge Server architecture, see [Secure Data Exchange (SDX)](secure-data-exchange.md).
 
-Connected Services does not take ownership of ministry data. 
+### Data ownership and control
 
-- Ministries remain custodians of their data 
-- Access decisions are enforced based on predefined policies 
-- Data is exchanged directly between approved participants 
-- No centralized data repository is created 
+SDX does not take ownership of ministry or public body data, such as ICBC data.
 
-This model supports interoperability while preserving program accountability. 
+- Ministries and public bodies remain custodians of their data
+- Access decisions are enforced based on predefined policies
+- Data is exchanged directly between approved participants
+- No centralized data repository is created
 
-### Identity and access enforcement 
+This model supports working across systems while preserving program accountability.
 
-Access is controlled at request time using short-lived, scoped tokens. 
+### Identity and access enforcement
 
-Each request must: 
+Access is controlled at request time using short-lived, scoped tokens.
 
-- Be authenticated 
-- Meet defined access policies 
-- Be validated before any data is exchanged 
+Each request must meet these conditions:
 
-Access enforcement is automated and consistent across participants. 
+- Be authenticated
+- Meet defined access policies
+- Be validated before any data is exchanged
 
-### Logging, audit, and transparency 
+Access enforcement is automated and consistent across participants.
 
-All transactions are logged automatically. 
+### Logging, audit, and transparency
 
-- Requests are timestamped 
-- Actions are auditable 
-- Records support compliance and oversight 
-- Logging enables accountability without exposing underlying data 
+All transactions are logged automatically.
 
-This design supports transparency while minimizing data exposure. 
+- Requests are timestamped
+- Actions are auditable
+- Records support compliance and oversight
+- Logging enables accountability without exposing underlying data
 
-### Scaling securely 
+This design supports transparency while minimizing data exposure.
 
-As Connected Services expands, the same trust and security foundation applies. 
+### Scaling securely
 
-- New partners onboard under shared trust rules 
-- Policies are enforced consistently 
-- Security controls do not need to be rebuilt for each integration 
+As more capabilities and partners are added over time, the same trust and security foundation applies.
 
-This supports scalable, secure interoperability across ministries. 
+- New partners onboard under shared trust rules
+- Policies are enforced consistently
+- Security controls do not need to be rebuilt for each integration
 
-### How decisions are defined 
+This helps this work grow securely across ministries.
 
-Privacy and security controls enforce rules — but those rules are established through governance and policy direction. 
+### How decisions are defined
 
-To understand how oversight, accountability, and decision-making structures shape Connected Services, review [Governance and policy](governance-and-policy.md). 
+Privacy and security controls enforce rules, but those rules are established through governance and policy direction.
+
+Oversight, accountability, and decision-making structures shape how these building blocks are governed. Review [Governance and policy](governance-and-policy.md) to learn more.
