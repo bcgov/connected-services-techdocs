@@ -1,7 +1,7 @@
 ---
 title: Authoritative Data Register (ADR) 
 ---
-# Getting started with Connected Services
+# Building trusted digital services
 
 ## Authoritative Data Register (ADR) 
 
@@ -52,11 +52,3 @@ ADR formalizes how datasets are reviewed and certified.
 5. Certified datasets are monitored and maintained over time. 
 
 Authoritative certification is not a one-time approval. It requires ongoing oversight. 
-
-### Where to go next
-<span style="color:red; font-weight:bold">TODO Add Links when available</span>
-
-- Authoritative Data Certification Process 
-- Authoritative Data Directory 
-- Data Register Standards 
-- Glossary and Data Dictionary 
