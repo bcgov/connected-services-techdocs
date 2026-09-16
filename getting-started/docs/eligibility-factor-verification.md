@@ -1,7 +1,7 @@
 ---
 title: Eligibility Factor Verification (EFV) 
 ---
-# Getting started with Connected Services
+# Building trusted digital services
 
 ## Eligibility Factor Verification (EFV) 
 
@@ -56,10 +56,3 @@ It should not be used for complex cases requiring significant human discretion o
 5. Adjudicators use the signal to support automated approval or focus on exceptions requiring review. 
 
 Verification is most effective when it reduces the need for applicants to upload scans or photographs of physical documents. 
-
-### Where to go next 
-<span style="color:red; font-weight:bold">TODO Add Links when available</span>
-
-- Eligibility Factor Verification Standards 
-- Authoritative Data Directory 
-- Trust Metadata and Lineage Guidelines  
