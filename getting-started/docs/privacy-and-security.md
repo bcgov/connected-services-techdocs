@@ -5,7 +5,7 @@ title: Privacy and security
 
 ## Privacy and security
 
-Secure Data Exchange (SDX) provides the secure, policy-driven trust foundation for data exchange that crosses privacy zones between organizations or that involves private information. For data exchange that doesn't meet that bar, the API Services Portal may be the right path instead. See [API Services Portal documentation](/docs/default/component/aps-infra-platform-docs/) for its approach to access and security.
+Secure Data Exchange (SDX) provides the secure, policy-driven trust foundation for data exchange that crosses privacy zones between organizations or that involves private information. For data exchange that doesn't meet that bar, the API Services Portal may be the right path instead. See [API Services Portal](api-services-portal.md) for its approach to access and security.
 
 This page describes the privacy and security model that applies when SDX is used.
 

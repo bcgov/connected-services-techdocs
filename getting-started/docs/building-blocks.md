@@ -11,7 +11,7 @@ Each building block plays a specific role in supporting the people who provide t
 
 ### Authoritative Data Register (ADR)
 
-Authoritative Data Register is the register that holds information on datasets designated as authoritative. These are official sources of truth for specific information, like residency, enrollment, property ownership, or program status.
+*Authoritative Data Register* is the register that holds information on datasets designated as authoritative. These are official sources of truth for specific information, like residency, enrollment, property ownership, or program status.
 
 It provides trusted, governed data that other programs can rely on.
 
@@ -19,7 +19,7 @@ It provides trusted, governed data that other programs can rely on.
 
 ### Eligibility Factor Verification (EFV)
 
-Eligibility Factor Verification checks applicant details against program rules. It confirms whether someone meets the requirements for a specific government program.
+*Eligibility Factor Verification* checks applicant details against program rules. It confirms whether someone meets the requirements for a specific government program.
 
 For example:
 
@@ -32,7 +32,7 @@ EFVs reduce manual verification and help standardize eligibility checks across p
 
 ### Secure Data Exchange (SDX)
 
-Secure Data Exchange provides a governed way to move approved data between systems.
+*Secure Data Exchange* provides a governed way to move approved data between systems.
 
 It ensures that data sharing is secure, policy-aligned, and auditable. Teams don't need to build a custom integration for each connection.
 
@@ -42,17 +42,20 @@ It ensures that data sharing is secure, policy-aligned, and auditable. Teams don
 
 API Services Portal is a central gateway for connecting APIs across government. It covers routing, access control, and general API management.
 
-[Learn more in the API Services Portal documentation](/docs/default/component/aps-infra-platform-docs/).
+[Learn more about API Services Portal](api-services-portal.md).
+
+!!! Note
+    Guidance on when to use SDX versus the API Services Portal is planned but not yet available.
 
 ### BC Data Catalogue (BCDC)
 
-BC Data Catalogue helps people find datasets available across government and understand how to access them.
+*BC Data Catalogue* helps people find datasets available across government and understand how to access them.
 
 [Explore the BC Data Catalogue](https://catalogue.data.gov.bc.ca/).
 
 ### Integration Toolkit (ITK)
 
-Integration Toolkit is documentation that helps you understand the building blocks above, what each one does, and how they fit together.
+*Integration Toolkit* is documentation that helps you understand the building blocks above, what each one does, and how they fit together.
 
 Over time, this is expected to grow into a compiled, end-to-end reference guide, refined as each building block matures, including checklists, templates, and more detailed guidance. Right now, ITK's job is to help you understand what's available and point you to each team's own documentation.
 

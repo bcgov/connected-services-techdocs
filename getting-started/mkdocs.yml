@@ -7,10 +7,11 @@ nav:
     - index.md
     - purpose-and-value.md
     - building-blocks.md
-    - integration-toolkit.md
     - authoritative-data-register.md
     - eligibility-factor-verification.md
     - secure-data-exchange.md
+    - api-services-portal.md    
+    - integration-toolkit.md
     - privacy-and-security.md
     - governance-and-policy.md
     - roles-and-responsibilities.md

@@ -19,9 +19,9 @@ Connected Services BC is working toward a future where people and businesses exp
 
 This works through common building blocks that enable:
 
-- [Access to authoritative data](authoritative-data-register.md)
-- [Reusable eligibility checks](/catalogue?filters%5Bkind%5D=api&filters%5Btags%5D=eligibility-factor-verification)
-- [Secure, policy-aligned data exchange](secure-data-exchange.md)
+- Access to authoritative data
+- Reusable eligibility checks
+- Secure, policy-aligned data exchange
 - Dataset discovery
 - Documentation that helps you understand what's available across these areas
 
