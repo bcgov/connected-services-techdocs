@@ -8,11 +8,11 @@ This section introduces each area, what it contributes, and where to go for deta
 
 ### Authoritative Data Register (ADR)
 
-Shared terms, definitions, relationships, and standards for data. ADR maintains the Connected Services Glossary, keeping shared terms consistent across government.  More detailed ADR documentation will be made available over time.  [View an overview of ADR](/docs/default/component/building-trusted-digital-services-techdocs/authoritative-data-register/).
+Shared terms, definitions, relationships, and standards for data. ADR maintains the Connected Services Glossary, keeping shared terms consistent across government.  More detailed ADR documentation will be made available over time.  [Read an overview of ADR](/docs/default/component/building-trusted-digital-services-techdocs/authoritative-data-register/).
 
 ### Eligibility Factor Verification (EFV)
 
-The ability to check eligibility against authoritative sources, for things like income or residency. More detailed EFV documentation will be made available over time. [View an overview of EFV](/docs/default/component/building-trusted-digital-services-techdocs/eligibility-factor-verification/).
+The ability to check eligibility against authoritative sources, for things like income or residency. More detailed EFV documentation will be made available over time. [Read an overview of EFV](/docs/default/component/building-trusted-digital-services-techdocs/eligibility-factor-verification/).
 
 ### Secure Data Exchange (SDX)
 
@@ -20,7 +20,7 @@ A service for secure, formal data exchange between specific government agencies 
 
 ### API Services Portal
 
-A central gateway for connecting APIs across government. Covers routing, access control, and general API management.  See the [API Services Portal documentation](/docs/default/component/building-trusted-digital-services-techdocs/api-services-portal/) for an overview and helpful links. 
+A central gateway for connecting APIs across government. Covers routing, access control, and general API management.  See the [API Services Portal overview](/docs/default/component/building-trusted-digital-services-techdocs/api-services-portal/) for details and helpful links. 
 
 ### BC Data Catalogue (BCDC)
 
