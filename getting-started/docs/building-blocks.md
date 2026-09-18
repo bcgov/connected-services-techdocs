@@ -44,9 +44,6 @@ API Services Portal is a central gateway for connecting APIs across government. 
 
 [Learn more about API Services Portal](api-services-portal.md).
 
-!!! Note
-    Guidance on when to use SDX versus the API Services Portal is planned but not yet available.
-
 ### BC Data Catalogue (BCDC)
 
 *BC Data Catalogue* helps people find datasets available across government and understand how to access them.
