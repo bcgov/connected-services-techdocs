@@ -1,5 +1,5 @@
 ---
-title: API Services Portal -DRAFT
+title: API Services Portal - DRAFT
 ---
 # Building trusted digital services
 
@@ -34,6 +34,6 @@ Use the API Services Portal when you need a simple, secure way to send informati
 
 ### Where to go next
 
-- Read the beginner guide on how to [Connect to the API Services Portal](https://api.gov.bc.ca/). 
+- Read the beginner guide on how to [Connect to the API Services Portal](https://digital.gov.bc.ca/technology/api/portal/). 
 - Check out full technical details on [API Program Services documentation](https://digital.gov.bc.ca/technology/api/portal/).
 - Browse available tools on the [BC Government API Services Portal](https://api.gov.bc.ca/).
