@@ -5,7 +5,7 @@ repo_url: "https://github.com/bcgov/connected-services-techdocs"
 edit_uri: edit/main/integration-toolkit/docs/
 nav:
     - index.md
-    - itk-contributors.md
+    - areas-of-itk.md
     - finding-and-using-itk.md
     - milestone-updates.md
     - support.md

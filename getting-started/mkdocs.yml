@@ -1,5 +1,5 @@
-site_name: "Getting Started with Connected Services"
-site_description: "Explore Connected Services, its building blocks, and trusted data exchange"
+site_name: "Building Trusted Digital Services"
+site_description: "Learn about the building blocks used to build trusted digital services"
 docs_dir: "docs"
 repo_url: "https://github.com/bcgov/connected-services-techdocs"
 edit_uri: edit/main/getting-started/docs/
@@ -10,6 +10,8 @@ nav:
     - authoritative-data-register.md
     - eligibility-factor-verification.md
     - secure-data-exchange.md
+    - api-services-portal.md    
+    - integration-toolkit.md
     - privacy-and-security.md
     - governance-and-policy.md
     - roles-and-responsibilities.md

@@ -1,7 +1,7 @@
 ---
 title: Secure Data Exchange (SDX)
 ---
-# Getting started with Connected Services
+# Building trusted digital services
 
 ## Secure Data Exchange (SDX)
 
@@ -59,7 +59,7 @@ Once onboarded:
 
 SDX Edge Servers provide the secure connection used by participating organizations.
 
-For detailed setup instructions, see [SDX onboarding documentation](/docs/default/component/aps-infra-platform-docs/how-to/sdx-org-onboarding/).
+For more details including setup instructions, see [Getting started with SDX documentation](/docs/default/component/secure-data-exchange-techdocs/).
 
 ### Privacy and security responsibilities
 
@@ -70,5 +70,5 @@ Using SDX does not replace an organization's responsibility to meet its own priv
 See [Privacy and security](privacy-and-security.md) for more information about organizational responsibilities and accountability.
 
 ### Where to go next
-
-- [SDX onboarding documentation](/docs/default/component/aps-infra-platform-docs/how-to/sdx-org-onboarding/)
+- [Getting started with SDX documentation](/docs/default/component/secure-data-exchange-techdocs/)
+- Or go directly to [SDX onboarding documentation](/docs/default/component/aps-infra-platform-docs/how-to/sdx-org-onboarding/)
