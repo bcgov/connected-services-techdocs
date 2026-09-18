@@ -8,7 +8,7 @@ Finding information about the government's technical products and services can b
 
 ITK isn't a separate application or portal. You won't find a button, portal, or menu item called "Integration Toolkit" in DevHub. Right now, ITK is documentation. This page, and the ones it links to, help you understand what's involved and how to get started. 
 
-ITK points to five areas that support data interoperability, managed by the Data Interoperability Foundational Teams (DIFT): 
+ITK points to [five areas](/docs/default/component/integration-toolkit-techdocs/areas-of-itk/) that support data interoperability, managed by the Data Interoperability Foundational Teams (DIFT): 
 
 - Authoritative Data Registers (ADR): shared terms, definitions, and standards for data 
 - Eligibility Factor Verification (EFV): checking eligibility against authoritative sources 
@@ -20,6 +20,6 @@ Each area is owned and maintained by its own government team. Each team works on
 
 ## Explore the areas
 
-ITK points to five areas of data interoperability foundational tools. 
+ITK points to five areas of data interoperability foundational tools.  
 
 See [Areas of ITK](/docs/default/component/integration-toolkit-techdocs/areas-of-itk/) for what each one does. 
