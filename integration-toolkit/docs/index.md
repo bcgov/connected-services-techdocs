@@ -22,4 +22,4 @@ Each area is owned and maintained by its own government team. Each team works on
 
 ITK points to five areas of data interoperability foundational tools. 
 
-See [Areas of ITK](/docs/default/component/integration-toolkit-techdocs/finding-and-using-itk/) for what each one does. 
+See [Areas of ITK](/docs/default/component/integration-toolkit-techdocs/areas-of-itk/) for what each one does. 
