@@ -10,8 +10,6 @@ ITK isn't a separate application or portal. You won't find a button, portal, or 
 
 ITK points to five areas that support data interoperability, managed by the Data Interoperability Foundational Teams (DIFT): 
 
-ITK will bring together information from several products and services, including:
-
 - Authoritative Data Registers (ADR): shared terms, definitions, and standards for data 
 - Eligibility Factor Verification (EFV): checking eligibility against authoritative sources 
 - Secure Data Exchange (SDX): ensuring that data sharing is secure, policy-aligned, and auditable
