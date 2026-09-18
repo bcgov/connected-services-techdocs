@@ -8,11 +8,11 @@ This section introduces each area, what it contributes, and where to go for deta
 
 ### Authoritative Data Register (ADR)
 
-Shared terms, definitions, relationships, and standards for data. ADR maintains the Connected Services Glossary, keeping shared terms consistent across government.  ADR documentation will be made available in the near future. 
+Shared terms, definitions, relationships, and standards for data. ADR maintains the Connected Services Glossary, keeping shared terms consistent across government.  More detailed ADR documentation will be made available over time.  [View an overview of ADR](/docs/default/component/building-trusted-digital-services-techdocs/authoritative-data-register/).
 
 ### Eligibility Factor Verification (EFV)
 
-The ability to check eligibility against authoritative sources, for things like income or residency. EFV documentation will be made available in the near future.
+The ability to check eligibility against authoritative sources, for things like income or residency. More detailed EFV documentation will be made available over time. [View an overview of EFV](/docs/default/component/building-trusted-digital-services-techdocs/eligibility-factor-verification/).
 
 ### Secure Data Exchange (SDX)
 
@@ -20,11 +20,11 @@ A service for secure, formal data exchange between specific government agencies 
 
 ### API Services Portal
 
-A central gateway for connecting APIs across government. Covers routing, access control, and general API management. See the [API Services Portal documentation](/docs/default/component/building-trusted-digital-services-techdocs/api-services-portal/) for details. 
+A central gateway for connecting APIs across government. Covers routing, access control, and general API management.  See the [API Services Portal documentation](/docs/default/component/building-trusted-digital-services-techdocs/api-services-portal/) for an overview and helpful links. 
 
 ### BC Data Catalogue (BCDC)
 
-Datasets available across government. If you're looking to make a dataset available for use, BCDC is where its metadata can be registered and maintained.  BCDC hasn't published its own documentation at this time. [Reach out to the APS team](support.md) for details.
+Datasets available across government. If you're looking to make a dataset available for use, BCDC is where its metadata can be registered and maintained.  BCDC hasn't published its own documentation at this time.  Explore the [BC Data Catalogue](https://catalogue.data.gov.bc.ca/).
 
 ## Put into practice
 
