@@ -8,7 +8,7 @@ ITK is documentation right now, not one single system. Because of this, support 
 
 The APS team runs Microsoft Teams channels for ITK. Here you can ask questions and get help. You can also stay informed about ITK updates. These channels are open to BC Public Service employees. 
 
-Join by clicking [*IntegrationToolkit-alerts*](https://teams.microsoft.com/l/channel/19%3A82b39b1a908b484286712f977bce47ad%40thread.tacv2/IntegrationToolkit-alerts?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) and [*IntegrationToolkit-howto*](https://teams.microsoft.com/l/channel/19%3A985f194f790a443d8b3345ff784d9eed%40thread.tacv2/IntegrationToolkit-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) and sign in with your your IDIR. 
+Join by clicking [*IntegrationToolkit-howto*](https://teams.microsoft.com/l/channel/19%3A985f194f790a443d8b3345ff784d9eed%40thread.tacv2/IntegrationToolkit-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) and [*IntegrationToolkit-alerts*](https://teams.microsoft.com/l/channel/19%3A82b39b1a908b484286712f977bce47ad%40thread.tacv2/IntegrationToolkit-alerts?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) and sign in with your your IDIR. 
 
 Use the [IntegrationToolkit-howto](https://teams.microsoft.com/l/channel/19%3A985f194f790a443d8b3345ff784d9eed%40thread.tacv2/IntegrationToolkit-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel for: 
 
