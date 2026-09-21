@@ -41,21 +41,21 @@ That's the value these building blocks are working toward: less duplicate work, 
 
 ### What this means for you
 
-Right now, these building blocks exist as documentation. Progress is being made iteratively, and each area is open to conversations about opportunities and current status.
+The building blocks are at different stages. Some are operating services today, while others are still being developed or expanded. The integrated journey described in this documentation is also evolving as the building blocks become more closely connected.
 
-As functionality increases, the future state vision includes the following.
+Together, the current and planned capabilities are intended to support the following outcomes.
 
 For developers, these building blocks will support:
 
 - Faster integrations with reusable components
-- Reduced custom validation logic
+- Less custom validation logic
 - Access to governed and trusted data sources
 - Consistent integration guidance and sandbox environments
 
 For product owners and program leads, they will support:
 
 - Clear data ownership and accountability
-- Reduced duplication of datasets
+- Less duplication of datasets
 - More consistent eligibility decisions
 - Scalable cross-ministry service design
 
@@ -63,13 +63,11 @@ For data custodians, data managers, and data providers, they will support:
 
 - Clear designation of authoritative data
 - Defined access and reuse policies
-- Reduced ad hoc data-sharing requests
+- Fewer ad hoc data-sharing requests
 - Improved visibility into how data is used
 - Structured governance processes for oversight and accountability
 
-Together, these building blocks are intended to give developers and program teams what they need. The result: digital services that are consistent, secure, and work well together across government, in line with Connected Services BC's vision.
-
-Capabilities are being introduced iteratively. The availability of specific components will expand over time.
+Together, these building blocks are intended to help developers and program teams create digital services that are consistent, secure and work well together across government. Available capabilities and the connections between them will continue to expand over time.
 
 ### Explore the components
 

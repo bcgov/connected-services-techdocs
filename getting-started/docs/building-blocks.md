@@ -40,7 +40,7 @@ It ensures that data sharing is secure, policy-aligned, and auditable. Teams don
 
 ### API Services Portal
 
-API Services Portal is a central gateway for connecting APIs across government. It covers routing, access control, and general API management.
+*API Services Portal* is a central gateway for connecting APIs across government. It covers routing, access control, and general API management.
 
 [Learn more about API Services Portal](api-services-portal.md).
 
