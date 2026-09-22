@@ -1,27 +1,31 @@
 ---
-title: Connected Services overview 
+title: Connected services overview
 ---
-# Getting started with Connected Services
+# Building trusted digital services
 
-## Connected Services overview 
-_Connected Services_ provides reusable building blocks that help government programs securely share and reuse trusted data. 
+## Connected services overview
 
-If you are building or managing a digital service, explore available APIs and datasets below, or learn more about Connected Services and its building blocks.
+[Connected Services BC](https://digital.gov.bc.ca/2025/07/21/building-connected-services/) is working toward a future where people and businesses in B.C. experience government services as simple, connected, and easy to access, no matter which ministry or program is behind them.
 
-### Find APIs and datasets 
+This documentation is for the people who need to understand what's involved in building a trusted digital service: developers, product owners, data owners, and data custodians. It explains the building blocks involved and what makes this way of working different from how things have been done in the past.
 
-Use DevHub search or explore the catalogues to discover: 
+This documentation is the starting point for understanding these building blocks. Explore each one below to learn what it does and why it matters.
 
-- [APIs that use _Secure Data Exchange_ (SDX)](/catalogue?filters%5Bkind%5D=api&filters%5Btags%5D=secure-data-exchange)
-- [_Authoritative Data_ sources](/catalogue?filters%5Bkind%5D=api&filters%5Btags%5D=authoritative-data-register)
-- [Available _Eligibility Factor Verification_ (EFVs)](/catalogue?filters%5Bkind%5D=api&filters%5Btags%5D=eligibility-factor-verification)
+### Explore the building blocks
 
-### Availability 
+- [Authoritative Data Register (ADR)](authoritative-data-register.md)
+- [Eligibility Factor Verification (EFV)](eligibility-factor-verification.md)
+- [Secure Data Exchange (SDX)](secure-data-exchange.md)
+- [API Services Portal](api-services-portal.md)
+- BC Data Catalogue (BCDC)
+- [Integration Toolkit (ITK)](integration-toolkit.md)
 
-Connected Services capabilities are introduced iteratively. New APIs, datasets, and components will be added over time. 
+### Availability
 
-### Learn more 
+This documentation is available now. Some building blocks, like Secure Data Exchange, are further along than others. Check each page for its current status.
 
-To understand the broader purpose behind these capabilities, review [Purpose and value](purpose-and-value.md). 
+### Learn more
 
-To understand how Connected Services components fit together, review [Connected Services building blocks](building-blocks.md). 
+To understand the broader purpose behind these building blocks, review [Purpose and value](purpose-and-value.md).
+
+To understand how these building blocks fit together, review [Trusted digital service building blocks](building-blocks.md).
