@@ -1,8 +1,8 @@
-site_name: "Getting Started with Connected Services"
-site_description: "Explore Connected Services, its building blocks, and trusted data exchage"
+site_name: "Building Trusted Digital Services"
+site_description: "Learn about the building blocks used to build trusted digital services"
 docs_dir: "docs"
-repo_url: "https://github.com/bcgov/csit-connected-services-techdocs"
-edit_uri: edit/main/docs
+repo_url: "https://github.com/bcgov/connected-services-techdocs"
+edit_uri: edit/main/getting-started/docs/
 nav:
     - index.md
     - purpose-and-value.md
@@ -10,6 +10,8 @@ nav:
     - authoritative-data-register.md
     - eligibility-factor-verification.md
     - secure-data-exchange.md
+    - api-services-portal.md    
+    - integration-toolkit.md
     - privacy-and-security.md
     - governance-and-policy.md
     - roles-and-responsibilities.md
@@ -17,9 +19,7 @@ nav:
     - support.md
 
 plugins:
-    - techdocs-core
-    # This plugin was included by the DevHub Wizard that created the repo but it is
-    # not included in the Docker image used by DevHub's TechDocs plugin
-    # - git-revision-date-localized
+  - techdocs-core
+  
 markdown_extensions:
     - md_in_html

@@ -1,31 +1,20 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: building-trusted-digital-services-techdocs
-  title: Building Trusted Digital Services
-  description: Learn about the building blocks used to build trusted digital services.
+  name: secure-data-exchange-techdocs
+  title: Secure Data Exchange Documentation
+  description: Documentation for Secure Data Exchange (SDX). Coming soon.
   annotations:
     github.com/project-slug: bcgov/connected-services-techdocs
     backstage.io/techdocs-ref: dir:.
     bcgovpubcode.gov.bc.ca/ministry: CITZ
-    bcgovpubcode.gov.bc.ca/product_description: Learn about the building blocks used to build trusted digital services.
+    bcgovpubcode.gov.bc.ca/product_description: Documentation for Secure Data Exchange (SDX). Coming soon.
     bcgovpubcode.gov.bc.ca/product_owner: Stainton, Drew
     bcgovpubcode.gov.bc.ca/hosting_platform: Not-Applicable
     backstage.io/source-template: template:default/docs-template
   tags:
     - connected-services
-    - authoritative-data
-    - authoritative-data-register 
-    - eligibility
-    - eligibility-factor-verification 
     - secure-data-exchange
-    - privacy
-    - security
-    - governance
-    - policy 
-    - support
-    - troubleshooting
-    - onboarding
 spec:
   type: documentation
   lifecycle: experimental

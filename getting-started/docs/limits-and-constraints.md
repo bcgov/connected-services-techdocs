@@ -1,42 +1,41 @@
 ---
 title: Limits and constraints
 ---
-# Getting started with Connected Services
+# Building trusted digital services
 
 ## Limits and constraints 
 
-_Connected Services_ is being introduced through an initial use case and will expand iteratively over time. 
+This work is starting with an initial use case. It will expand iteratively over time.
 
-While the long-term direction includes broader cross-ministry integration and life-event-based service delivery, current capabilities are focused on establishing foundational building blocks. 
+Connected Services BC's long-term direction is for every high-impact life event or business interaction in B.C. to be a trusted, connected service by 2030. Right now, the focus is on building the foundational pieces that make that possible.
 
 ### Current scope 
 
 At this stage: 
 
-- Implementation is focused on a defined MVP use case 
-- Not all ministries or datasets are onboarded 
-- Not all processes are consolidated 
-- Some discovery and integration workflows may remain fragmented 
-- Governance and standards are actively being refined 
+- Implementation is focused on a defined MVP use case
+- Not all ministries or datasets are onboarded yet
+- Not all processes are consolidated yet
+- Some discovery and integration workflows may still be fragmented
+- Governance and standards are still being refined
 
-Connected Services provides improved structure and consistency compared to previous approaches, but full consolidation and standardization will occur over time. 
+These building blocks already improve on past approaches. Full consolidation and standardization will take more time.
 
 ### Incremental expansion 
 
-As additional building blocks and use cases are implemented: 
+As more building blocks and use cases are added, expect these changes:
 
-- More datasets and APIs will become available 
-- Discovery and catalogue functionality will mature 
-- Governance processes will be formalized and published 
-- Cross-ministry participation will expand 
+- More datasets and APIs will become available
+- Governance processes will be published as they're formalized
+- More ministries will take part
 
-Capabilities will grow iteratively rather than through a single comprehensive launch. 
+Capabilities will grow step by step, not all at once.
 
 ### What this means for teams 
 
-Teams should: 
+Teams should:
 
-- Expect phased availability of components 
-- Confirm authoritative status and access rules before integration 
-- Monitor updates to documentation and governance standards 
-- Engage early when planning integrations that depend on emerging capabilities 
+- Expect components to become available in phases
+- Confirm authoritative status and access rules before integrating
+- Watch for updates to documentation and governance standards
+- Engage early if planning depends on capabilities that aren't ready yet
