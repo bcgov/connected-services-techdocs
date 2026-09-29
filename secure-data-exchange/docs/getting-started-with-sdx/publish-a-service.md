@@ -2,11 +2,11 @@
 title: Publish a Service
 ---
 
-Every provider organization must complete onboarding before publishing a service through SDX. See [Onboarding Process](onboarding-process/onboarding-process.md) to get started.
+Every provider organization must complete onboarding before publishing a service through SDX. See [Onboarding Process Overview](onboarding-process/onboarding-process.md) to get started.
 
 Once onboarding is complete, System Admins can publish services through SDX. The provider journey includes:
 
-1. Complete organization onboarding – see [Onboarding Process](onboarding-process/onboarding-process.md)
+1. Complete organization onboarding – see [Onboarding Process](onboarding-process/onboarding-an-organization.md)
 2. Register systems and subsystems - see [Managing Subsystems](onboarding-process/managing-subsystems.md)
 3. Register an API using an OpenAPI Specification (OAS) that meets the SDX API Standard requirements – see [Managing Services](onboarding-process/managing-services.md).
 
