@@ -66,3 +66,7 @@ Connected Services is about letting different organizations work together while 
 - Letting organizations securely exchange data anywhere across Connected Services
 
 Because SDX handles these shared protections, teams building services on Connected Services can focus on the actual work they're trying to do, instead of building their own security systems from scratch for every new connection.
+
+## Related services
+
+- [API Services Portal](https://api.gov.bc.ca/)
