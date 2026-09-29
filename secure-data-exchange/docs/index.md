@@ -55,7 +55,7 @@ At a high level, SDX provides a secure connection between organizations that sha
 
 *Figure 1. High-level view of SDX*
 
-The diagram is intended as a high-level view. The technical details of how these components are configured are covered in the [SDX TechDocs](https://developer.gov.bc.ca/docs/default/component/aps-infra-platform-docs/concepts/secure-data-exchange/).
+The diagram is intended as a high-level view. The technical details of how these components are configured are covered in the [SDX technical documentation](https://developer.gov.bc.ca/docs/default/component/aps-infra-platform-docs/concepts/secure-data-exchange/).
 
 Connected Services is about letting different organizations work together while keeping information secure and properly governed. SDX is the part that makes this possible. It does this by:
 
