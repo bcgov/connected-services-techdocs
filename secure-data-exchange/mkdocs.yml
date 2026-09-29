@@ -13,6 +13,14 @@ nav:
       - Onboarding process:
           - Overview: getting-started-with-sdx/onboarding-process/onboarding-process.md
           - Onboarding an organization: getting-started-with-sdx/onboarding-process/onboarding-an-organization.md
+          - Install an Edge Runtime Group: getting-started-with-sdx/onboarding-process/install-an-edge-runtime-group.md
+          - Set Up Organization Signing: getting-started-with-sdx/onboarding-process/set-up-organization-signing.md
+          - Managing Subsystems: getting-started-with-sdx/onboarding-process/managing-subsystems.md
+          - Managing Services: getting-started-with-sdx/onboarding-process/managing-services.md
+          - Connecting a Service: getting-started-with-sdx/onboarding-process/connecting-a-service.md
+          - Connection Gateway Patterns: getting-started-with-sdx/onboarding-process/connection-gateway-patterns.md
+  - Experimental Features – LAB Only: experimental-features.md
+  - Get Support: get-support.md
 
 plugins:
   - techdocs-core
