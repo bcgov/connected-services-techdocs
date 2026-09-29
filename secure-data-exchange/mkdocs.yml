@@ -20,7 +20,7 @@ nav:
           - Connecting a Service: getting-started-with-sdx/onboarding-process/connecting-a-service.md
           - Connection Gateway Patterns: getting-started-with-sdx/onboarding-process/connection-gateway-patterns.md
   - Experimental Features – LAB Only: experimental-features.md
-  - Get Support: get-support.md
+  - Get Support: support.md
 
 plugins:
   - techdocs-core
