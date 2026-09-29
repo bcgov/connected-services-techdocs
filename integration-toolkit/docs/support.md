@@ -1,5 +1,5 @@
 ---
-title: Get Support
+title: Support
 ---
 
 ITK is documentation right now, not one single system. Because of this, support works a bit differently than a single help desk. Is your question about the ITK concept itself, like what it is or how the pieces fit together? Submit a support ticket. APS will answer directly or point you to the right team. 
