@@ -1,5 +1,5 @@
 ---
-title: Get Support
+title: Support
 ---
 
 This guide explains how to get help with the SDX platform and outlines the available support channels.
