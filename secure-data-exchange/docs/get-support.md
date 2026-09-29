@@ -6,7 +6,7 @@ This guide explains how to get help with the SDX platform and outlines the avail
 
 ## Before Contacting Support
 
-Before submitting a support request, review the SDX onboarding documentation and confirm you've completed the required organization registration and configuration steps. Many common onboarding questions are addressed in the [SDX TechDocs](https://developer.gov.bc.ca/docs/default/component/aps-infra-platform-docs/how-to/sdx-org-onboarding/).
+Before submitting a support request, review the SDX onboarding documentation and confirm you've completed the required organization registration and configuration steps. Many common onboarding questions are addressed in the [SDX technical documentation](https://developer.gov.bc.ca/docs/default/component/aps-infra-platform-docs/how-to/sdx-org-onboarding/).
 
 ## Support Channels
 
