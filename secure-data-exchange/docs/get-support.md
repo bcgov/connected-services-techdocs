@@ -17,7 +17,7 @@ Before submitting a support request, review the SDX onboarding documentation and
 
   2.  [*SecureDataExchange-SDX-howto*](https://teams.microsoft.com/l/channel/19%3A3823539ac64b44dda53b93e4c06a8a1b%40thread.tacv2/SecureDataExchangeSDX-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
 
-Use the [*SecureDataExchange-SDX-alerts*](https://teams.microsoft.com/l/channel/19%3A02f10e8a778e40e4896395353caf5d01%40thread.tacv2/SecureDataExchangeSDX-alerts?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel to stay informed about:
+Use the [SecureDataExchange-SDX-alerts](https://teams.microsoft.com/l/channel/19%3A02f10e8a778e40e4896395353caf5d01%40thread.tacv2/SecureDataExchangeSDX-alerts?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel to stay informed about:
 
 - Planned maintenance
 - Service outages
@@ -25,7 +25,7 @@ Use the [*SecureDataExchange-SDX-alerts*](https://teams.microsoft.com/l/channel/
 - Production releases
 - Important operational announcements
 
-Use the [*SecureDataExchange-SDX-howto*](https://teams.microsoft.com/l/channel/19%3A3823539ac64b44dda53b93e4c06a8a1b%40thread.tacv2/SecureDataExchangeSDX-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel for:
+Use the [SecureDataExchange-SDX-howto](https://teams.microsoft.com/l/channel/19%3A3823539ac64b44dda53b93e4c06a8a1b%40thread.tacv2/SecureDataExchangeSDX-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel for:
 
 - SDX onboarding questions
 - Secure connectivity and SDX Edge Runtime Group guidance
