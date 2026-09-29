@@ -51,7 +51,7 @@ More government programs need to share sensitive information to deliver services
 
 At a high level, SDX provides a secure connection between organizations that share or consume services. Each organization uses an SDX Edge Runtime Group to connect its systems to the SDX platform and to the other organization involved in an exchange. SDX also uses shared trust services to support secure, traceable exchanges.
 
-![High-level SDX architecture showing the consumer and provider edge servers, control plane, and trust services](media/image1.png)
+![SDX Architecture](/artifacts/SDX.svg)
 
 *Figure 1. High-level view of SDX*
 
