@@ -5,6 +5,14 @@ repo_url: "https://github.com/bcgov/connected-services-techdocs"
 edit_uri: edit/main/secure-data-exchange/docs/
 nav:
   - Home: index.md
+  - Getting Started with SDX:
+      - SDX roles and responsibilities: getting-started-with-sdx/sdx-roles-and-responsibilities.md
+      - Environments: getting-started-with-sdx/environments.md
+      - Publish a service: getting-started-with-sdx/publish-a-service.md
+      - Consume a service: getting-started-with-sdx/consume-a-service.md
+      - Onboarding process:
+          - Overview: getting-started-with-sdx/onboarding-process/onboarding-process.md
+          - Onboarding an organization: getting-started-with-sdx/onboarding-process/onboarding-an-organization.md
 
 plugins:
   - techdocs-core
