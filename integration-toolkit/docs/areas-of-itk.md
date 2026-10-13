@@ -12,7 +12,7 @@ Shared terms, definitions, relationships, and standards for data. ADR maintains 
 
 ### Eligibility Factor Verification (EFV)
 
-The ability to check eligibility against authoritative sources, for things like income or residency. More detailed EFV documentation will be made available over time. Read the [EFV overview](/docs/default/component/building-trusted-digital-services-techdocs/eligibility-factor-verification/).
+The ability to check eligibility against authoritative sources, for things like income or residency. More detailed EFV documentation will be made available over time. Read the [EFV documentation](/docs/default/component/efv-itk-techdocs) for details.
 
 ### Secure Data Exchange (SDX)
 

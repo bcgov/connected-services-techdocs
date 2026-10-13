@@ -52,4 +52,4 @@ EFV may help when your program wants to:
 
 ### Where to go next
 
-Full EFV documentation will be made available soon.
+- Read the [EFV documentation](/docs/default/component/efv-itk-techdocs) for details
