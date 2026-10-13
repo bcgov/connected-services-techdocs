@@ -18,7 +18,7 @@ nav:
           - Managing Subsystems: getting-started-with-sdx/onboarding-process/managing-subsystems.md
           - Managing Services: getting-started-with-sdx/onboarding-process/managing-services.md
           - Connecting a Service: getting-started-with-sdx/onboarding-process/connecting-a-service.md
-          - Connection Gateway Patterns: getting-started-with-sdx/onboarding-process/connection-gateway-patterns.md
+          - Connection Resources: getting-started-with-sdx/onboarding-process/connection-resources.md
   - Experimental Features – LAB Only: experimental-features.md
   - References: references.md
   - Support: support.md
