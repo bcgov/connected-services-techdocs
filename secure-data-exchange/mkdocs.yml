@@ -5,6 +5,7 @@ repo_url: "https://github.com/bcgov/connected-services-techdocs"
 edit_uri: edit/main/secure-data-exchange/docs/
 nav:
   - Introduction: index.md
+  - Data Access Protocol: data-access-protocol.md
   - Getting Started with SDX:
       - SDX roles and responsibilities: getting-started-with-sdx/sdx-roles-and-responsibilities.md
       - Environments: getting-started-with-sdx/environments.md
