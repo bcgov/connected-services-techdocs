@@ -28,7 +28,7 @@ A client-hosted runtime group is deployed and managed within an organization's o
 - Infrastructure is hosted and managed by the organization.
 - The organization's System Admin is responsible for coordinating the installation and configuration.
 - This option may be suitable for organizations that have their own infrastructure and technical resources to manage it.
-- Organizations choosing this option should follow the [Install an Edge Runtime Group] technical guide to complete setup and verification.
+- Organizations choosing this option should follow the [Install an Edge Runtime Group](https://developer.gov.bc.ca/docs/default/component/aps-infra-platform-docs/how-to/sdx-edge-runtime-groups/) technical guide to complete setup and verification.
 
 Both options support secure communication through SDX. The appropriate hosting option will depend on your organization's infrastructure, technical capabilities, and onboarding requirements.
 
