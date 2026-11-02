@@ -14,9 +14,9 @@ Shared terms, definitions, relationships, and standards for data. ADR maintains 
 
 The ability to check eligibility against authoritative sources, for things like income or residency. More detailed EFV documentation will be made available over time. Read the [EFV documentation](/docs/default/component/efv-itk-techdocs) for details.
 
-### Secure Data Exchange (SDX)
+### Secure Data Exchange (P2P)
 
-A service for secure, formal data exchange between specific government agencies and external partners. Read the [SDX documentation](/docs/default/Component/secure-data-exchange-techdocs/) for details.
+A service for secure, formal data exchange between specific government agencies and external partners. Read the [P2P documentation](/docs/default/Component/secure-data-exchange-techdocs/) for details.
 
 ### API Services Portal
 

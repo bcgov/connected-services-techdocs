@@ -12,7 +12,7 @@ ITK points to [five areas](/docs/default/component/integration-toolkit-techdocs/
 
 - Authoritative Data Registers (ADR): shared terms, definitions, and standards for data 
 - Eligibility Factor Verification (EFV): checking eligibility against authoritative sources 
-- Secure Data Exchange (SDX): ensuring that data sharing is secure, policy-aligned, and auditable
+- Secure Data Exchange (P2P): ensuring that data sharing is secure, policy-aligned, and auditable
 - API Services Portal: a central gateway for connecting APIs across government
 - BC Data Catalogue (BCDC): datasets available across government 
 

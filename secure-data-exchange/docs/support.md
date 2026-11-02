@@ -2,22 +2,22 @@
 title: Support
 ---
 
-This guide explains how to get help with the SDX platform and outlines the available support channels.
+This guide explains how to get help with the P2P platform and outlines the available support channels.
 
 ## Before Contacting Support
 
-Before submitting a support request, review the SDX onboarding documentation and confirm you've completed the required organization registration and configuration steps. Many common onboarding questions are addressed in the [SDX technical documentation](https://developer.gov.bc.ca/docs/default/component/aps-infra-platform-docs/how-to/sdx-org-onboarding/).
+Before submitting a support request, review the P2P onboarding documentation and confirm you've completed the required organization registration and configuration steps. Many common onboarding questions are addressed in the [P2P technical documentation](https://developer.gov.bc.ca/docs/default/component/aps-infra-platform-docs/how-to/P2P-org-onboarding/).
 
 ## Support Channels
 
-- The APS team maintains two Microsoft Teams channels where users can ask questions, receive guidance, and stay informed about SDX updates. These channels are currently available to BC Public Service employees.
+- The APS team maintains two Microsoft Teams channels where users can ask questions, receive guidance, and stay informed about P2P updates. These channels are currently available to BC Public Service employees.
 - Join by clicking the links below and authenticating with your IDIR:
 
-  1.  [*SecureDataExchange-SDX-alerts*](https://teams.microsoft.com/l/channel/19%3A02f10e8a778e40e4896395353caf5d01%40thread.tacv2/SecureDataExchangeSDX-alerts?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
+  1.  [*SecureDataExchange-P2P-alerts*](https://teams.microsoft.com/l/channel/19%3A02f10e8a778e40e4896395353caf5d01%40thread.tacv2/SecureDataExchangeP2P-alerts?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
 
-  2.  [*SecureDataExchange-SDX-howto*](https://teams.microsoft.com/l/channel/19%3A3823539ac64b44dda53b93e4c06a8a1b%40thread.tacv2/SecureDataExchangeSDX-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
+  2.  [*SecureDataExchange-P2P-howto*](https://teams.microsoft.com/l/channel/19%3A3823539ac64b44dda53b93e4c06a8a1b%40thread.tacv2/SecureDataExchangeP2P-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
 
-Use the [SecureDataExchange-SDX-alerts](https://teams.microsoft.com/l/channel/19%3A02f10e8a778e40e4896395353caf5d01%40thread.tacv2/SecureDataExchangeSDX-alerts?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel to stay informed about:
+Use the [SecureDataExchange-P2P-alerts](https://teams.microsoft.com/l/channel/19%3A02f10e8a778e40e4896395353caf5d01%40thread.tacv2/SecureDataExchangeP2P-alerts?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel to stay informed about:
 
 - Planned maintenance
 - Service outages
@@ -25,10 +25,10 @@ Use the [SecureDataExchange-SDX-alerts](https://teams.microsoft.com/l/channel/19
 - Production releases
 - Important operational announcements
 
-Use the [SecureDataExchange-SDX-howto](https://teams.microsoft.com/l/channel/19%3A3823539ac64b44dda53b93e4c06a8a1b%40thread.tacv2/SecureDataExchangeSDX-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel for:
+Use the [SecureDataExchange-P2P-howto](https://teams.microsoft.com/l/channel/19%3A3823539ac64b44dda53b93e4c06a8a1b%40thread.tacv2/SecureDataExchangeP2P-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel for:
 
-- SDX onboarding questions
-- Secure connectivity and SDX Edge Runtime Group guidance
+- P2P onboarding questions
+- Secure connectivity and P2P Edge Runtime Group guidance
 - Organization registration support
 - API and service registration questions
 - General usage questions and troubleshooting

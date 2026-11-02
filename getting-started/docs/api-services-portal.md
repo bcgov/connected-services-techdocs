@@ -24,7 +24,7 @@ Use the API Services Portal when you need a simple, secure way to send informati
 - See clear reports on how often your service is being used and if any errors happen.
 
 !!! Note
-     If your team needs to transfer highly sensitive personal data between organizations with legal tracking, look at [Secure Data Exchange (SDX)](secure-data-exchange.md) as well.
+     If your team needs to transfer highly sensitive personal data between organizations with legal tracking, look at [Secure Data Exchange (P2P)](secure-data-exchange.md) as well.
 
 ### How it works (high-level)
 

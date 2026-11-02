@@ -6,20 +6,20 @@ The following features are currently experimental and available in the LAB envir
 
 ## Event Management
 
-Event Management enables organizations to publish and consume event-based messages through SDX using AsyncAPI services. It supports scenarios where consumers need to receive information when an event occurs, rather than requesting information directly from an API.
+Event Management enables organizations to publish and consume event-based messages through P2P using AsyncAPI services. It supports scenarios where consumers need to receive information when an event occurs, rather than requesting information directly from an API.
 
 This guide provides the technical steps for registering an AsyncAPI service, configuring an endpoint for publishing events, connecting consumers to the service, setting up webhooks to receive messages, and publishing messages.
 
 This process is managed by the System Admin.
 
-Technical guide: [Event Management](https://developer.gov.bc.ca/docs/default/component/aps-infra-platform-docs/how-to/sdx-ape-event-mgmt/)
+Technical guide: [Event Management](https://developer.gov.bc.ca/docs/default/component/aps-infra-platform-docs/how-to/P2P-ape-event-mgmt/)
 
 ## Policy Management
 
-Policy Management enables organizations to define and apply rules that control access to services and data exchanged through SDX. These policies can use information about a request, such as the user, requested resource, or authorization data, to determine whether access should be permitted.
+Policy Management enables organizations to define and apply rules that control access to services and data exchanged through P2P. These policies can use information about a request, such as the user, requested resource, or authorization data, to determine whether access should be permitted.
 
-This guide provides the technical steps for creating and registering OPA and CEDAR policies, applying a policy to an SDX connection for enforcement, and registering data sources that can provide additional information for access decisions.
+This guide provides the technical steps for creating and registering OPA and CEDAR policies, applying a policy to an P2P connection for enforcement, and registering data sources that can provide additional information for access decisions.
 
 This process is managed by the System Admin.
 
-Technical guide: [Policy Management](https://developer.gov.bc.ca/docs/default/component/aps-infra-platform-docs/how-to/sdx-ape-policy-mgmt/)
+Technical guide: [Policy Management](https://developer.gov.bc.ca/docs/default/component/aps-infra-platform-docs/how-to/P2P-ape-policy-mgmt/)

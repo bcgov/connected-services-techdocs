@@ -13,7 +13,7 @@ EFV is intended for situations where a program needs to verify information throu
 
 EFV can help programs reduce repeated document checks, support more consistent decisions, and keep a record of what was checked, when, and against what source. 
 
-EFV does not decide if someone is eligible for a program. It is not a program rule engine and does not approve or deny applications. Programs still own their eligibility rules and make the final decision. 
+EFV does not decide if someone is eligible for a program. It is not a program rule engine and does not approve or deny applications. Programs still own their eligibility rules and make the final decision.  Something
 
 ### Who this is for 
 

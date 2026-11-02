@@ -15,7 +15,7 @@ This documentation is the starting point for understanding these building blocks
 
 - [Authoritative Data Register (ADR)](authoritative-data-register.md)
 - [Eligibility Factor Verification (EFV)](eligibility-factor-verification.md)
-- [Secure Data Exchange (SDX)](secure-data-exchange.md)
+- [Secure Data Exchange (P2P)](secure-data-exchange.md)
 - [API Services Portal](api-services-portal.md)
 - BC Data Catalogue (BCDC)
 - [Integration Toolkit (ITK)](integration-toolkit.md)

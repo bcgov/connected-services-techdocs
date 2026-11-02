@@ -30,13 +30,13 @@ EFVs reduce manual verification and help standardize eligibility checks across p
 
 [Learn more about EFV](eligibility-factor-verification.md).
 
-### Secure Data Exchange (SDX)
+### Secure Data Exchange (P2P)
 
 *Secure Data Exchange* provides a governed way to move approved data between systems.
 
 It ensures that data sharing is secure, policy-aligned, and auditable. Teams don't need to build a custom integration for each connection.
 
-[Learn more about SDX](secure-data-exchange.md).
+[Learn more about P2P](secure-data-exchange.md).
 
 ### API Services Portal
 

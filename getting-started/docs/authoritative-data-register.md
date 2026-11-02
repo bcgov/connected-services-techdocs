@@ -5,7 +5,7 @@ title: Authoritative Data Register (ADR)
 
 ## Authoritative Data Register (ADR) 
 
-### What it is TEST
+### What it is
 
 _Authoritative Data_ is a dataset formally designated as the trusted source for a specific purpose within government. 
 

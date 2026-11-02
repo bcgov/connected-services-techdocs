@@ -58,7 +58,7 @@ Clear accountability across technical and program areas is essential to maintain
 
 ### Relationship to privacy and security
 
-Governance and policy sets the rules and accountability structures. Privacy and security shows how those rules are technically enforced through Secure Data Exchange (SDX) and related controls.
+Governance and policy sets the rules and accountability structures. Privacy and security shows how those rules are technically enforced through Secure Data Exchange (P2P) and related controls.
 
 Review [Privacy and security](privacy-and-security.md) for details on technical enforcement.
 

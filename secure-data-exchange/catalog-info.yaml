@@ -3,12 +3,12 @@ kind: Component
 metadata:
   name: secure-data-exchange-techdocs
   title: Secure Data Exchange Documentation
-  description: Documentation for Secure Data Exchange (SDX). Coming soon.
+  description: Documentation for Secure Data Exchange (P2P). Coming soon.
   annotations:
     github.com/project-slug: bcgov/connected-services-techdocs
     backstage.io/techdocs-ref: dir:.
     bcgovpubcode.gov.bc.ca/ministry: CITZ
-    bcgovpubcode.gov.bc.ca/product_description: Learn what Secure Data Exchange (SDX) is, the features it delivers, and how to onboard
+    bcgovpubcode.gov.bc.ca/product_description: Learn what Secure Data Exchange (P2P) is, the features it delivers, and how to onboard
     bcgovpubcode.gov.bc.ca/product_owner: Stainton, Drew
     bcgovpubcode.gov.bc.ca/hosting_platform: Not-Applicable
     backstage.io/source-template: template:default/docs-template
