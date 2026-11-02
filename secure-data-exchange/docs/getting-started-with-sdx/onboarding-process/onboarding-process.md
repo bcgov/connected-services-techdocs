@@ -2,7 +2,9 @@
 title: Onboarding Process
 ---
 
-Before your organization can publish or consume services through Secure Data Exchange (SDX), it must first be onboarded to the platform. Organization onboarding establishes your organization within SDX and assigns the roles required to manage systems and services. The process for onboarding is similar in both provider and consumer journeys.
+Before your organization can publish or consume services through Secure Data Exchange (SDX), it must first be onboarded to the platform. This process registers your organization within SDX and establishes the access needed to manage systems and services. The onboarding process is similar for both providers and consumers.
+
+To begin, submit an onboarding request through the [Support Portal](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/2/create/665). Once your request has been received, a member of the SDX Operations team will contact you to schedule an onboarding session.
 
 Organization onboarding consists of two primary activities:
 
