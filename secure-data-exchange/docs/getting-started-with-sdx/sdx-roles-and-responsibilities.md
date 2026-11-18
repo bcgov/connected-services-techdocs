@@ -43,8 +43,7 @@ The role responsibilities above describe what each role can manage.
 They do not mean that your Organization Admin must perform the technical
 setup during onboarding.
 
-## Next steps
+## Choose your path
 
-- [Environments](environments.md): Understand the available environments and what to expect.
-- [Organization onboarding overview](onboarding-process/onboarding-process.md): Understand the onboarding stages and who is involved.
-- [Onboarding an organization](onboarding-process/onboarding-an-organization.md): Learn about the kickoff discussion and initial organization setup.
+- [Publish a service](publish-a-service.md): Follow the provider path.
+- [Consume a service](consume-a-service.md): Follow the consumer path.
