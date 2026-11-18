@@ -1,13 +1,8 @@
 ---
-title: Peer-to-peer (P2P)
+title: Peer-to-Peer (P2P)
 ---
+
 # Peer-to-Peer (P2P)
-
----
-title: Peer-to-peer (P2P)
----
-
-# Peer-to-peer (P2P)
 
 !!! note "The service name is changing"
     Secure Data Exchange (SDX) is becoming peer-to-peer (P2P). Both names
