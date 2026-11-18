@@ -1,43 +1,89 @@
 ---
-title: Secure Data Exchange (SDX)
+title: Peer-to-peer (P2P)
 ---
-# Secure Data Exchange (SDX)
+# Peer-to-Peer (P2P)
 
-## What is SDX?
+---
+title: Peer-to-peer (P2P)
+---
 
-*Secure Data Exchange* (SDX) enables organizations to share information when additional security, governance, and privacy controls are required. When one organization needs to send information to another, like a government ministry sharing data with a delivery partner, SDX handles the security in the background. It makes sure the connection is protected, checks that only approved organizations are involved, and protects the information the whole way from sender to receiver. Every organization that uses SDX, whether they're providing data, using it, or both, gets the same consistent protection and rules built in.
+# Peer-to-peer (P2P)
 
-SDX is built around two foundational capabilities: security controls and governance and compliance.
+!!! note "The service name is changing"
+    Secure Data Exchange (SDX) is becoming peer-to-peer (P2P). Both names
+    refer to the same service. You may still see SDX in interfaces,
+    documentation and integrations while the name change progresses across
+    teams. Some names, including **SDX Catalog**, remain unchanged.
 
-### Security Controls
+## At a glance
 
-When your organization sends or receives information through SDX, several protections work automatically to keep that information safe along the way.
+| | |
+|---|---|
+| **On this page** | What P2P does, why it matters and how its architecture supports secure information exchange. |
+| **When to use it** | When learning about P2P and how it supports Connected Services. |
+| **Who is involved** | Organizations providing or consuming information, and the people responsible for their services and technical implementation. |
 
-SDX automatically:
+## What is P2P?
+
+*Peer-to-peer* (P2P) enables organizations to share information when additional
+security, governance, and privacy controls are required. When one organization
+needs to send information to another, like a government ministry sharing data
+with a delivery partner, P2P handles the security in the background. It makes
+sure the connection is protected, checks that only approved organizations are
+involved, and protects the information the whole way from sender to receiver.
+Every organization that uses P2P, whether they're providing data, using it, or
+both, gets the same consistent protection and rules built in.
+
+P2P is built around two foundational capabilities: security controls and
+governance and compliance.
+
+### Security controls
+
+When your organization sends or receives information through P2P, several
+protections work automatically to keep that information safe along the way.
+
+P2P automatically:
 
 - Protects the data while it's moving, so it can't be read if someone intercepts it (*encryption in transit*)
 - Checks that only approved, verified systems are sending or receiving the data (*authentication*)
 - Confirms the data arrives exactly as it was sent, with nothing changed along the way (*data integrity verification*)
 - Keeps the connection between organizations protected for the entire exchange (*secure communications*)
 
-**Example:** A ministry program needs to send a citizen's income information to a partner organization. Before the data leaves, SDX encrypts it so it can't be read if intercepted. SDX also confirms the receiving system is an approved participant, and checks that what arrives matches exactly what was sent, no tampering, no changes.
+**Example:** A ministry program needs to send a citizen's income information
+to a partner organization. Before the data leaves, P2P encrypts it so it can't
+be read if intercepted. P2P also confirms the receiving system is an approved
+participant, and checks that what arrives matches exactly what was sent,
+no tampering, no changes.
 
-### Governance and Compliance
+### Governance and compliance
 
-When information is exchanged through SDX, governance controls automatically create a trusted record of what happened. These records help organizations show that information was shared the right way, and support security, privacy, and compliance requirements. These controls:
+When information is exchanged through P2P, governance controls automatically
+create a trusted record of what happened. These records help organizations
+show that information was shared the right way, and support security, privacy,
+and compliance requirements. These controls:
 
 - Keep a record of who exchanged information, when it happened, and what actions were taken
 - Only allow access that's been specifically approved ahead of time, based on what each system is permitted to do
 - Create proof of who sent and received each exchange, so no one can later deny it happened
 - Record the exact date and time of every exchange
 
-**Example:** A ministry shares information with another organization to verify a citizen's eligibility for a program. SDX records who started the exchange, confirms they had permission to do it, captures exactly when it happened, and keeps a record that can be checked later. Together, this shows the information was shared securely and by the rules.
+**Example:** A ministry shares information with another organization to verify
+a citizen's eligibility for a program. P2P records who started the exchange,
+confirms they had permission to do it, captures exactly when it happened,
+and keeps a record that can be checked later. Together, this shows the
+information was shared securely and by the rules.
 
-These controls help organizations meet B.C.'s security, privacy, and regulatory requirements for sharing information safely.
+These controls help organizations meet B.C.'s security, privacy, and regulatory
+requirements for sharing information safely.
 
 ### Why it matters
 
-More government programs need to share sensitive information to deliver services that work well together. Without a shared, secure way to do this, every organization would have to build and maintain its own security systems and trust relationships, for every single partner. SDX solves this by giving every organization the same secure foundation to work from. This lets organizations:
+More government programs need to share sensitive information to deliver
+services that work well together. Without a shared, secure way to do this,
+every organization would have to build and maintain its own security systems
+and trust relationships, for every single partner. P2P solves this by giving
+every organization the same secure foundation to work from. This lets
+organizations:
 
 - Share sensitive information safely with other organizations
 - Protect citizen information the whole time it's being exchanged
@@ -45,19 +91,11 @@ More government programs need to share sensitive information to deliver services
 - Set up trusted connections with partner organizations more easily
 - Keep a record of who did what during every exchange, so it can be checked later (auditability and accountability)
 
-### How SDX supports Connected Services
+## How P2P supports Connected Services
 
-#### SDX Architecture
-
-At a high level, SDX provides a secure connection between organizations that share or consume services. Each organization uses an SDX Edge Runtime Group to connect its systems to the SDX platform and to the other organization involved in an exchange. SDX also uses shared trust services to support secure, traceable exchanges.
-
-![SDX Architecture](artifacts/SDX.svg)
-
-*Figure 1. High-level view of SDX*
-
-The diagram is intended as a high-level view. The technical details of how these components are configured are covered in the [SDX technical documentation](https://developer.gov.bc.ca/docs/default/component/aps-infra-platform-docs/concepts/secure-data-exchange/).
-
-Connected Services is about letting different organizations work together while keeping information secure and properly governed. SDX is the part that makes this possible. It does this by:
+Connected Services is about letting different organizations work together
+while keeping information secure and properly governed. P2P is the part
+that makes this possible. It does this by:
 
 - Setting up trusted, verified connections between organizations
 - Applying the same security protections to every exchange
@@ -65,8 +103,73 @@ Connected Services is about letting different organizations work together while 
 - Keeping a record of every exchange for auditing and accountability
 - Letting organizations securely exchange data anywhere across Connected Services
 
-Because SDX handles these shared protections, teams building services on Connected Services can focus on the actual work they're trying to do, instead of building their own security systems from scratch for every new connection.
+Because P2P handles these shared protections, teams building services on
+Connected Services can focus on the actual work they're trying to do, instead
+of building their own security systems from scratch for every new connection.
+
+## Architecture and technical concepts
+
+### P2P architecture
+
+At a high level, P2P provides a secure connection between organizations that
+share or consume services. Each organization uses an Edge Runtime Group to
+connect its systems to the P2P platform and to the other organization involved
+in an exchange. P2P also uses shared trust services to support secure,
+traceable exchanges.
+
+![SDX Architecture](artifacts/SDX.svg)
+
+*Figure 1. High-level view of P2P*
+
+The Edge Server is a forward proxy for the service consumer (IS client) and
+a reverse proxy for the service provider (IS service). Each proxy interaction
+provides an opportunity to apply policies, such as:
+
+- Privacy zone identity token exchange
+- Timestamping
+- Legal entity signatures (electronic seals)
+- Logging
+- Access control policy enforcement
+
+**Clients:** Clients invoke services and can be either a P2P member organization
+or a subsystem within that organization.
+
+**Services:** Services are API implementations described using an OpenAPI
+specification. They belong to a subsystem and expose functionality to
+P2P clients.
+
+Edge Servers sit in an organization's DMZ, where they are able to communicate
+with other Edge Servers in a secure and auditable way.
+
+### The public consumer host (PZGW)
+
+`pzgw` is the shared, community-hosted runtime group that acts as the public
+consumer entry point for member organizations that do not run their own
+Internet-routable edge. It is not a general-purpose provider runtime: a
+consumer application reaches P2P through PZGW's `consumerEndpoint`, PZGW then
+forwards the request edge-to-edge to the **provider's own runtime group**
+(over mTLS, using that runtime's `sdxEndpoint`), and the provider edge
+forwards it to the private provider `upstreamUrl`.
+
+Because PZGW is the only runtime with a widely recognizable public
+(`*.api.gov.bc.ca`) hostname, it is easy to mistake it for the provider
+runtime in a connection. The provider must still register and host its own
+runtime group (`client-hosted` or another `community-hosted` runtime group).
+That runtime must appear in the provider's organization `hostedOrganizations`.
+
+PZGW is one public host, so the consumer subsystem is selected from the
+request. The [P2P routing contract](reference/p2p-routing-contract.md)
+records how a connection is selected. Which headers a provider may trust
+are recorded in the
+[Data Access Protocol](reference/data-access-protocol.md).
 
 ## Related services
 
 - [API Services Portal](https://api.gov.bc.ca/)
+
+## Next steps
+
+- [Publish a service](getting-started-with-sdx/publish-a-service.md): Follow the provider path.
+- [Consume a service](getting-started-with-sdx/consume-a-service.md): Follow the consumer path.
+- [P2P roles and responsibilities](getting-started-with-sdx/sdx-roles-and-responsibilities.md): Review the roles involved in setup and management.
+- [Environments](getting-started-with-sdx/environments.md): Review the environments available for P2P.
