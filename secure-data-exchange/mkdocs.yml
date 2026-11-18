@@ -1,12 +1,12 @@
-site_name: "Secure Data Exchange Documentation"
-site_description: "Documentation for Secure Data Exchange (SDX)"
+site_name: "Peer-to-Peer Documentation"
+site_description: "Documentation for Peer-to-Peer (P2P)"
 docs_dir: "docs"
 repo_url: "https://github.com/bcgov/connected-services-techdocs"
 edit_uri: edit/main/secure-data-exchange/docs/
 nav:
   - Introduction: index.md
-  - Getting Started with SDX:
-      - SDX roles and responsibilities: getting-started-with-sdx/sdx-roles-and-responsibilities.md
+  - Getting Started with P2P:
+      - P2P roles and responsibilities: getting-started-with-sdx/sdx-roles-and-responsibilities.md
       - Environments: getting-started-with-sdx/environments.md
       - Publish a service: getting-started-with-sdx/publish-a-service.md
       - Consume a service: getting-started-with-sdx/consume-a-service.md
@@ -21,6 +21,9 @@ nav:
           - Connection Resources: getting-started-with-sdx/onboarding-process/connection-resources.md
   - Experimental Features – LAB Only: experimental-features.md
   - References: references.md
+          - P2P Routing Contract: reference/p2p-routing-contract.md
+          - Data Access Protocol: reference/data-access-protocol.md   
+  - P2P Releases: releases.md            
   - Support: support.md
 
 plugins:
