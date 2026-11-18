@@ -45,5 +45,5 @@ setup during onboarding.
 
 ## Choose your path
 
-- [Publish a service](publish-a-service.md): Follow the provider path.
-- [Consume a service](consume-a-service.md): Follow the consumer path.
+- [Publish a service](publish-a-service/overview.md): Follow the provider path.
+- [Consume a service](consume-a-service/overview.md): Follow the consumer path.
