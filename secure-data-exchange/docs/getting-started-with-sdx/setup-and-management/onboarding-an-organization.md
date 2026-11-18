@@ -27,7 +27,7 @@ The API Program Services (APS) team uses Jira Service Management (JSM),
 its support ticketing system, to track onboarding activities and communicate
 with your team.
 
-## Provider kickoff
+## Provider onboarding kickoff
 
 The following diagram and kickoff guidance describe the provider entry route.
 Consumer onboarding starts through a Common Hosted Single Sign-on (CSS)
@@ -45,9 +45,9 @@ flowchart TD
     F --> G["System Admins follow the next setup instructions"]
 ```
 
-*Provider kickoff and initial setup*
+*Provider onboarding kickoff and initial setup*
 
-### Request a kickoff meeting
+### Request a provider onboarding kickoff meeting
 
 Use the [Support Portal](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/2/create/665)
 to request a P2P onboarding kickoff meeting. A P2P operator from the APS team

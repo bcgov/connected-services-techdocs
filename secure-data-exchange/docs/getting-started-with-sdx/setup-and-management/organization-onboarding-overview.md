@@ -32,6 +32,8 @@ flowchart TD
     G --> H["Continue with provider or consumer setup"]
 ```
 
+*Provider and consumer onboarding paths*
+
 !!! note "Guided organization setup"
     The API Program Services (APS) team operates P2P. A P2P operator works
     with your organization and performs the initial organization setup
@@ -44,8 +46,8 @@ to track onboarding activities and communicate with your team.
 
 | Your organization's purpose | How onboarding starts |
 |---|---|
-| **Provide a service** | An organization representative requests a kickoff through the [Support Portal](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/2/create/665). The Data Management & Interoperability (DMI) team may provide this link when referring your organization to APS |
-| **Consume a service** | A Common Hosted Single Sign-on (CSS) integration request identifies that P2P organization setup is needed. A P2P operator is notified, opens a JSM ticket on behalf of the CSS integration requester and arranges a kickoff |
+| **Provide a service** | An organization representative requests an onboarding kickoff meeting through the [Support Portal](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/2/create/665). The Data Management & Interoperability (DMI) team may provide this link when referring your organization to APS |
+| **Consume a service** | A Common Hosted Single Sign-on (CSS) integration request identifies that P2P organization setup is needed. A P2P operator is notified, opens a JSM ticket on behalf of the CSS integration requester and arranges an onboarding kickoff meeting. |
 
 ## What to expect
 
