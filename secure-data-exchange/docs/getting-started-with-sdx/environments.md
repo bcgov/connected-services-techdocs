@@ -126,8 +126,7 @@ For access to services in `Prod`, the following token issuers are accepted:
 
 - `https://loginproxy.gov.bc.ca/auth/realms/standard`
 
-## Next steps
+## Choose your path
 
 - [Publish a service](publish-a-service.md): Follow the provider path.
 - [Consume a service](consume-a-service.md): Follow the consumer path.
-- [Organization onboarding overview](onboarding-process/onboarding-process.md): Understand the onboarding stages and who is involved.
