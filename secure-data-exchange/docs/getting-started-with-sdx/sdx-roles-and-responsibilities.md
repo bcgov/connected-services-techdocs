@@ -45,5 +45,6 @@ setup during onboarding.
 
 ## Next steps
 
+- [Environments](environments.md): Understand the available environments and what to expect.
 - [Organization onboarding overview](onboarding-process/onboarding-process.md): Understand the onboarding stages and who is involved.
 - [Onboarding an organization](onboarding-process/onboarding-an-organization.md): Learn about the kickoff discussion and initial organization setup.
