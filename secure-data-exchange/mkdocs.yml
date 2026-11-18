@@ -8,7 +8,10 @@ nav:
   - Getting Started with P2P:
       - P2P roles and responsibilities: getting-started-with-sdx/sdx-roles-and-responsibilities.md
       - Environments: getting-started-with-sdx/environments.md
-      - Publish a service: getting-started-with-sdx/publish-a-service.md
+      - Publish a service: 
+            - Overview: getting-started-with-sdx/publish-a-service/overview.md
+            - Prepare your API: getting-started-with-sdx/publish-a-service/prepare-your-api.md
+      getting-started-with-sdx/publish-a-service.md
       - Consume a service: getting-started-with-sdx/consume-a-service.md
       - Onboarding process:
           - Overview: getting-started-with-sdx/onboarding-process/onboarding-process.md
@@ -20,7 +23,7 @@ nav:
           - Connecting a Service: getting-started-with-sdx/onboarding-process/connecting-a-service.md
           - Connection Resources: getting-started-with-sdx/onboarding-process/connection-resources.md
   - Experimental Features – LAB Only: experimental-features.md
-  - References: references.md
+  - References: 
           - P2P Routing Contract: reference/p2p-routing-contract.md
           - Data Access Protocol: reference/data-access-protocol.md   
   - P2P Releases: releases.md            
