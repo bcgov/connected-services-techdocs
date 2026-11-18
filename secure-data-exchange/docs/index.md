@@ -162,9 +162,7 @@ are recorded in the
 
 - [API Services Portal](https://api.gov.bc.ca/)
 
-## Next steps
+## Choose your path
 
 - [Publish a service](getting-started-with-sdx/publish-a-service.md): Follow the provider path.
 - [Consume a service](getting-started-with-sdx/consume-a-service.md): Follow the consumer path.
-- [P2P roles and responsibilities](getting-started-with-sdx/sdx-roles-and-responsibilities.md): Review the roles involved in setup and management.
-- [Environments](getting-started-with-sdx/environments.md): Review the environments available for P2P.
