@@ -12,11 +12,11 @@ title: Peer-to-Peer (P2P)
 
 ## At a glance
 
-| | |
-|---|---|
-| **On this page** | What P2P does, why it matters and how its architecture supports secure information exchange. |
-| **When to use it** | When learning about P2P and how it supports Connected Services. |
-| **Who is involved** | Organizations providing or consuming information, and the people responsible for their services and technical implementation. |
+**On this page:** What P2P does, why it matters and how its architecture supports secure information exchange.
+
+**When to use it:** When learning about P2P and how it supports Connected Services.
+
+**Who is involved:** Organizations providing or consuming information, and the people responsible for their services and technical implementation.
 
 ## What is P2P?
 
