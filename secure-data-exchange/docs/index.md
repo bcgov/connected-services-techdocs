@@ -164,5 +164,5 @@ are recorded in the
 
 ## Choose your path
 
-- [Publish a service](getting-started-with-sdx/publish-a-service.md): Follow the provider path.
-- [Consume a service](getting-started-with-sdx/consume-a-service.md): Follow the consumer path.
+- [Publish a service](getting-started-with-sdx/publish-a-service/overview.md): Follow the provider path.
+- [Consume a service](getting-started-with-sdx/consume-a-service/overview.md): Follow the consumer path.
