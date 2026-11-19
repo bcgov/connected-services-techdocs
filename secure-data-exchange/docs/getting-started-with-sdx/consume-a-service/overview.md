@@ -45,7 +45,7 @@ which setup activities remain.
 |---|---|---|
 | **Identify a service and discuss access** | Discuss your data needs with the provider. Confirm that access is available through P2P and identify the service and scopes your application needs | Service information supplied by the provider or listed in the SDX Catalogue |
 | **Request access through CSS** | The CSS integration requester selects the service scopes needed by the application and submits the request. A request requiring P2P organization setup is held until that setup is complete | [Connecting a service](../setup-and-management/connecting-a-service.md) |
-| **Complete organization onboarding, if needed** | The P2P operator coordinates onboarding through a JSM ticket, confirms organization representation and hosting arrangements, and sets up the organization and initial administrator access | [Organization onboarding overview](../setup-and-management/onboarding-process.md) |
+| **Complete organization onboarding, if needed** | The P2P operator coordinates onboarding through a JSM ticket, confirms organization representation and hosting arrangements, and sets up the organization and initial administrator access | [Organization onboarding overview](../setup-and-management/organization-onboarding-overview.md) |
 | **Set up an Edge Runtime Group** | Learn about the hosting options and discuss the choice with the P2P operator. Work with the operator for community hosting, or install a client-hosted Edge Runtime Group | [Install an Edge Runtime Group](../setup-and-management/install-an-edge-runtime-group.md) |
 | **Set up organization signing (optional)** | Discuss applicable signing requirements with the P2P operator. If needed, your System Admin configures organization signing | [Set up organization signing](../setup-and-management/set-up-organization-signing.md) |
 | **Register and link your subsystem** | The System Admin registers the consumer subsystem, assigns its runtime group, arranges team access and links it to the CSS integration. They confirm completion through the JSM ticket so the operator can resume the held request | [Managing subsystems](../setup-and-management/managing-subsystems.md) |
@@ -62,7 +62,7 @@ made through the platform.
 ## Next steps
 
 - **If you have identified a provider:** Review [Connecting a service](../setup-and-management/connecting-a-service.md) for access-request guidance.
-- **If your request is held for P2P organization setup:** Work with your P2P operator and review the [Organization onboarding overview](../setup-and-management/onboarding-process.md).
+- **If your request is held for P2P organization setup:** Work with your P2P operator and review the [Organization onboarding overview](../setup-and-management/organization-onboarding-overview.md).
 
 ## Get help
 

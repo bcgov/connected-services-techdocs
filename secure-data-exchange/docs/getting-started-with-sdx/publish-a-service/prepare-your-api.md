@@ -71,6 +71,6 @@ features are available for your testing needs.
 
 ## Next steps
 
-- [Organization onboarding overview](../setup-and-management/onboarding-process.md): If your organization has not started onboarding, review the stages and who needs to be involved.
+- [Organization onboarding overview](../setup-and-management/organization-onboarding-overview.md): If your organization has not started onboarding, review the stages and who needs to be involved.
 - [Managing services](../setup-and-management/managing-services.md): When the required setup is complete and your API is ready, follow the guidance to register your service.
 - [Publish a service overview](overview.md): Return to the full provider journey.

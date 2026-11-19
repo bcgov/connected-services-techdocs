@@ -48,7 +48,7 @@ enforcement and audit logging.
 ## Next steps
 
 - [Prepare your API](prepare-your-api.md): Review the API preparation guidance.
-- [Organization onboarding overview](../setup-and-management/onboarding-process.md): Understand the onboarding stages and who is involved.
+- [Organization onboarding overview](../setup-and-management/organization-onboarding-overview.md): Understand the onboarding stages and who is involved.
 
 ## Get help
 
