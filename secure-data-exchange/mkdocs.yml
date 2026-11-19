@@ -15,7 +15,7 @@ nav:
       - Consume a service:
           - Overview: getting-started-with-sdx/consume-a-service/overview.md
       - Setup and management:
-          - Overview: getting-started-with-sdx/setup-and-management/onboarding-process.md
+          - Organization onboarding overview: getting-started-with-sdx/setup-and-management/organization-onboarding-overview.md
           - Onboarding an organization: getting-started-with-sdx/setup-and-management/onboarding-an-organization.md
           - Install an Edge Runtime Group: getting-started-with-sdx/setup-and-management/install-an-edge-runtime-group.md
           - Set up organization signing: getting-started-with-sdx/setup-and-management/set-up-organization-signing.md
@@ -23,11 +23,16 @@ nav:
           - Managing services: getting-started-with-sdx/setup-and-management/managing-services.md
           - Connecting a service: getting-started-with-sdx/setup-and-management/connecting-a-service.md
           - Connection resources: getting-started-with-sdx/setup-and-management/connection-resources.md
-  - Experimental features – LAB only: experimental-features.md
+  - Experimental features – LAB only:
+      - Event management: experimental-features/sdx-ape-event-mgmt.md
+      - Policy management: experimental-features/sdx-ape-policy-mgmt.md
   - References:
-      - P2P routing contract: reference/p2p-routing-contract.md
-      - Data Access Protocol: reference/data-access-protocol.md
-  - P2P releases: releases.md
+      - P2P routing contract: getting-started-with-sdx/references/p2p-routing-contract.md
+      - Data access protocol: getting-started-with-sdx/references/data-access-protocol.md
+  - P2P releases:
+      - Overview: releases/index.md
+      - SDX M2 release: releases/2026-nov.md
+      - SDX M1 release: releases/2026-sep.md
   - Support: support.md
 
 plugins:

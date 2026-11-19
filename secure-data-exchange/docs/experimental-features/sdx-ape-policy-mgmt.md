@@ -1,0 +1,119 @@
+---
+title: Policy management
+---
+
+# Policy management
+
+## At a glance
+
+**On this page:** Registering policies, applying them to connections and registering data sources for access decisions.
+
+**When to use it:** When exploring experimental policy enforcement in the LAB environment.
+
+**Who is involved:** System Admins and Subsystem Owners.
+
+!!! warning "Preview"
+
+    This feature is in `preview` only, which means it is experimental.
+    It is available in our `LAB` environment as is.
+
+## How policy management works
+
+Policy management enables organizations to define and apply rules that control access to services and data exchanged through P2P. These policies can use information about a request, such as the user, requested resource or authorization data, to determine whether access should be permitted.
+
+The technical instructions cover creating and registering OPA and CEDAR policies, applying a policy to a connection for enforcement, and registering data sources that provide additional information for access decisions.
+
+## Technical reference
+
+This page shows how to create OPA and CEDAR policies and use them for enforcement on SDX.
+
+The steps described in this page are performed by the following roles:
+
+| Role | Function |
+|---|---|
+| System Admin | Organization-level role for managing subsystems and services |
+| Subsystem Owner | Subsystem-level role for managing services for a subsystem |
+
+Use cases:
+
+- Register a policy
+- Upgrade connection with a PEP
+- Register a data source
+
+### Register a policy
+
+> NOTE: The package name in the policy should match the `subsystem_id` (with `.` and `-` changed to `_`)
+> For example: `package LAB_USR_ACOPE_APS_KAFKA.authz`
+
+```sh
+{
+  "pattern": "opal-policy.r1",
+  "parameters": {
+    "subsystem_id": "LAB.USR.ACOPE.APS-KAFKA",
+    "name": "authz",
+    "policy": {{POLICY}}
+  }
+}
+```
+
+#### Inputs
+
+When designing your policies, assume the `pep` plugin will provide
+the following data about the particular request:
+
+```json
+{
+  "method": "GET",
+  "path": "/v1/widgets/1234",
+  "named_params": {
+    "id": "1234"
+  },
+  "token": {
+    "sub": "111",
+    "aud": "abc",
+    "scopes": "scope1 scope2"
+  }
+}
+```
+
+### Upgrade connection with a PEP
+
+When configuring the `sdx-p2p-*.r1` gateway patterns for consumer and provider,
+use the `pep` upgrade to run the particular policy that you created in the previous
+step.
+
+```json
+{
+    "upgrades": {
+      "pep": {
+        "policy_name": "authz"
+      }
+    }
+```
+
+### Register a data source
+
+The data source (policy information point) is a powerful way of pulling in authorization
+data to be used in the decision making. The `upstream_url` should be accessible from the
+runtime group that the subsystem is registered on.
+
+```json
+{
+  "pattern": "opal-data-source.r1",
+  "parameters": {
+    "subsystem_id": "LAB.USR.ACOPE.APS-KAFKA",
+    "name": "user-gateways",
+    "upstream_url": "https://httpbun.com/any"
+  }
+}
+```
+
+For referencing the data source in your policy, use the `subsystem_id` package convention:
+
+```sh
+import data.tenant["LAB.USR.ACOPE.APS-KAFKA"] as dat
+
+items := {row |
+    row := dat["user-gateways"]
+}
+```

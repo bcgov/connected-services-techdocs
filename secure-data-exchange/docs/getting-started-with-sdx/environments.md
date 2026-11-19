@@ -33,7 +33,7 @@ Links to the different services for each environment:
 
 | Service | Playground | Production |
 |---|---|---|
-| SDX UI | [UI](https://sdx-api-gov-bc-ca.test.api.gov.bc.ca) | [UI](https://sdx.gov.bc.ca) |
+| SDX Catalogue | [UI](https://sdx-api-gov-bc-ca.test.api.gov.bc.ca) | [UI](https://sdx.gov.bc.ca) |
 | P2P Member API | [API](https://api-gov-bc-ca.test.api.gov.bc.ca/ds/api/sdx/v1/console) | [API](https://api.gov.bc.ca/ds/api/sdx/v1/console) |
 | OpenAPI Specification | [OpenAPI](https://api-gov-bc-ca.test.api.gov.bc.ca/ds/api/sdx/v1/openapi.yaml) | [OpenAPI](https://api.gov.bc.ca/ds/api/sdx/v1/openapi.yaml) |
 | API Services Portal | [APS Portal](https://api-gov-bc-ca.test.api.gov.bc.ca/login?identity=provider) | [APS Portal](https://api.gov.bc.ca/login?identity=provider) |

@@ -33,9 +33,9 @@ automated validation rules.
 
 | Resource | What it helps you understand or do | When to use it |
 |---|---|---|
-| [API style guides](https://developer.gov.bc.ca/docs/default/component/api-style-guides) | Understand the available guides and how their rules help teams write consistent, valid OpenAPI specifications | Before using the P2P-specific standard and ruleset |
-| [SDX API Standard](https://developer.gov.bc.ca/docs/default/component/sdx-api-standards-techdocs) | Understand the requirements your API and OpenAPI specification must meet to be published through P2P | When designing your API and specification |
-| [SDX API Standard Ruleset](https://developer.gov.bc.ca/docs/default/component/api-style-guides/sdx-style-guide/) | Understand the automated validation rules and use examples to resolve issues | When writing and validating your specification |
+| [API style guides](/docs/default/component/api-style-guides) | Understand the available guides and how their rules help teams write consistent, valid OpenAPI specifications | Before using the P2P-specific standard and ruleset |
+| [SDX API Standard](docs/default/component/sdx-api-standards-techdocs) | Understand the requirements your API and OpenAPI specification must meet to be published through P2P | When designing your API and specification |
+| [SDX API Standard Ruleset](/docs/default/component/api-style-guides/sdx-style-guide/) | Understand the automated validation rules and use examples to resolve issues | When writing and validating your specification |
 | P2P emulator: [Request access](https://api.gov.bc.ca/devportal/api-directory/4443) · [Development app](https://sdx-p2p-emu-api-gov-bc-ca.dev.api.gov.bc.ca/) | Generate sample tokens and headers to use when testing your provider API. Development is ongoing, with additional functionality scheduled before the end of 2026 | During development and testing |
 
 The standard and ruleset are maintained separately from this onboarding
