@@ -335,9 +335,9 @@ header when it cannot obtain a usable `azp`.
 
 Which of these headers select a route, and which ones SDX overwrites, are
 recorded in the
-[P2P routing contract](../../reference/p2p-routing-contract.md). Which values a
+[P2P routing contract](../reference/p2p-routing-contract.md). Which values a
 provider may trust are recorded in the
-[SDX Data Access Protocol](../../reference/data-access-protocol.md#header-trust).
+[SDX Data Access Protocol](../reference/data-access-protocol.md#header-trust).
 
 ## Next steps
 

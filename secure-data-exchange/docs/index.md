@@ -136,7 +136,7 @@ P2P clients.
 Edge Servers sit in an organization's DMZ, where they are able to communicate
 with other Edge Servers in a secure and auditable way.
 
-For information about environments, visit [Environments](environments.md).
+For information about environments, visit [Environments](setup-and-management/environments.md).
 
 ### The public consumer host (PZGW)
 

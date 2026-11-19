@@ -136,7 +136,7 @@ The RS published an AsyncAPI spec to state all the events it will publish.
 The RS will use its local runtime group publisher endpoint to send a message.
 
 The client authentication will use the same approach described in the
-[SDX Data Access Protocol](../reference/data-access-protocol.md) document.
+[SDX Data Access Protocol](data-access-protocol.md) document.
 
 ```sh
 curl -v -H "Host:internal.share0.servers.sdx" \

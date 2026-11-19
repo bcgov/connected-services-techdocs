@@ -46,7 +46,7 @@ flowchart TD
 
 To learn more about the communication protocol between a client Edge Runtime
 Group and a service Edge Runtime Group, visit the
-[SDX Data Access Protocol](../../reference/data-access-protocol.md) document.
+[SDX Data Access Protocol](../reference/data-access-protocol.md) document.
 
 ## Compare hosting options
 
