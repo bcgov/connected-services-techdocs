@@ -43,6 +43,8 @@ flowchart TD
     D --> E["P2P operator completes organization setup"]
     E --> F["Operator updates the ticket and adds System Admins"]
     F --> G["System Admins follow the next setup instructions"]
+    classDef default fill:#D8EAFD,stroke:#013366,color:#2D2D2D,stroke-width:2px;
+    linkStyle default stroke:#013366,stroke-width:2px,color:#2D2D2D;
 ```
 
 *Provider onboarding kickoff and initial setup*
@@ -92,13 +94,7 @@ the designated System Admins into the ticket conversation.
 ## Technical reference
 
 The following sections are for P2P operators, Organization Admins and
-System Admins performing organization setup and administration. They cover:
-
-- Registering an organization
-- Assigning System Admin access
-- Listing organizations
-- Viewing organization details and role membership
-- Assigning an organization gateway
+System Admins performing organization setup and administration.
 
 During initial onboarding, the P2P operator performs the organization setup
 and initial administrator assignments. The role permissions below also
@@ -106,11 +102,18 @@ support subsequent administration.
 
 | Role | Function |
 |---|---|
-| P2P operator | Establish member organizations and assign legal representatives the Organization Admin role |
+| P2P operator | Establish member organizations and assign legal representatives Org Admin role |
 | Organization Admin | Manage System Admin role assignment for the organization |
-| System Admin | Manage subsystem onboarding for the organization |
+| System Admin | Manage subsystem onboarding for the particular organization |
 
-### Register a new organization
+Use cases:
+
+- Register new organization
+- System Admin role assignment
+- List organizations
+- Assign gateway for organization
+
+### Register new organization
 
 This is performed by the P2P operator to onboard a new organization.
 
@@ -281,12 +284,12 @@ role membership.
 !!! note "`includeAccess` does not require authentication"
     `organization-get` has always been callable without a bearer token, and
     `includeAccess` does not change that: role membership is resolved using
-    the platform's own Keycloak service credentials, not the caller's.
-    Passing `includeAccess=true` returns the organization's role members
+    the platform's own Keycloak service credentials, not the caller's - so
+    passing `includeAccess=true` returns the organization's role members
     to anonymous callers, the same way the base listing already returns
-    every organization's name, title and member details to anonymous callers.
+    every organization's name/title/member details to anonymous callers.
 
-### Assign a gateway to the organization
+### Assign gateway for organization
 
 An organization will have public keys that it will use for organization signing
 of traffic through P2P. Each organization is assigned a unique gateway where

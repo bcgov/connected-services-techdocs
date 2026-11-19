@@ -30,6 +30,8 @@ flowchart TD
     E --> F["Operator enables community hosting, if selected"]
     F --> G["Operator updates the JSM ticket, includes the relevant administrators and provides next steps"]
     G --> H["Continue with provider or consumer setup"]
+    classDef default fill:#D8EAFD,stroke:#013366,color:#2D2D2D,stroke-width:2px;
+    linkStyle default stroke:#013366,stroke-width:2px,color:#2D2D2D;
 ```
 
 *Provider and consumer onboarding paths*

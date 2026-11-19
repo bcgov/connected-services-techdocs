@@ -136,6 +136,8 @@ P2P clients.
 Edge Servers sit in an organization's DMZ, where they are able to communicate
 with other Edge Servers in a secure and auditable way.
 
+For information about environments, visit [Environments](environments.md).
+
 ### The public consumer host (PZGW)
 
 `pzgw` is the shared, community-hosted runtime group that acts as the public
@@ -148,15 +150,15 @@ forwards it to the private provider `upstreamUrl`.
 
 Because PZGW is the only runtime with a widely recognizable public
 (`*.api.gov.bc.ca`) hostname, it is easy to mistake it for the provider
-runtime in a connection. The provider must still register and host its own
-runtime group (`client-hosted` or another `community-hosted` runtime group).
-That runtime must appear in the provider's organization `hostedOrganizations`.
+runtime in a connection. It is not: the provider must still register and
+host its own runtime group (`client-hosted` or another `community-hosted`
+runtime group), and that runtime — not PZGW — must appear in the
+provider's organization `hostedOrganizations`.
 
 PZGW is one public host, so the consumer subsystem is selected from the
-request. The [P2P routing contract](reference/p2p-routing-contract.md)
-records how a connection is selected. Which headers a provider may trust
-are recorded in the
-[Data Access Protocol](reference/data-access-protocol.md).
+request. The [P2P routing contract](reference/p2p-routing-contract.md) records how a
+connection is selected today. Which headers a provider may trust are recorded
+in the [SDX Data Access Protocol](reference/data-access-protocol.md#header-trust).
 
 ## Related services
 
