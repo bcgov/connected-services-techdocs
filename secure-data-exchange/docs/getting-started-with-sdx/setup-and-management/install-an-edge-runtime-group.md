@@ -31,7 +31,6 @@ flowchart TD
     B -->|Client-hosted| D["System Admin coordinates installation"]
     D --> E["System Admin and runtime group operator complete setup and verification"]
     classDef default fill:#D8EAFD,stroke:#013366,color:#2D2D2D,stroke-width:2px;
-    linkStyle default stroke:#013366,stroke-width:2px,color:#2D2D2D;
 ```
 
 *Choosing an Edge Runtime Group hosting option*

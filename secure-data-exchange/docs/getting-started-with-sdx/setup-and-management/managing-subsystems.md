@@ -1,15 +1,4 @@
 ---
-title: Managing Subsystems
----
-
-Subsystems represent the systems within your organization that participate in SDX. Managing them ensures each subsystem is connected to the appropriate runtime group and that the right people have access to manage it.
-
-This guide provides the technical steps for registering a subsystem, assigning it to a runtime group, managing subsystem roles and access, and deleting a subsystem when it is no longer required.
-
-This process is performed by the System Admin.
-
-Technical guide: [Managing Subsystems](https://developer.gov.bc.ca/docs/default/component/aps-infra-platform-docs/how-to/sdx-subsystems/)
----
 title: Managing subsystems
 ---
 
@@ -50,7 +39,6 @@ flowchart TD
     G --> I["Continue to service registration"]
     H --> J["Confirm completion through JSM so the operator can resume the held request"]
     classDef default fill:#D8EAFD,stroke:#013366,color:#2D2D2D,stroke-width:2px;
-    linkStyle default stroke:#013366,stroke-width:2px,color:#2D2D2D;
 ```
 
 *Shared subsystem setup and the provider and consumer paths*
