@@ -26,9 +26,9 @@ nav:
   - Experimental features – LAB only:
       - Event management: experimental-features/sdx-ape-event-mgmt.md
       - Policy management: experimental-features/sdx-ape-policy-mgmt.md
-  - References:
-      - P2P routing contract: getting-started-with-sdx/references/p2p-routing-contract.md
-      - Data access protocol: getting-started-with-sdx/references/data-access-protocol.md
+  - Reference:
+      - P2P routing contract: getting-started-with-sdx/reference/p2p-routing-contract.md
+      - Data access protocol: getting-started-with-sdx/reference/data-access-protocol.md
   - P2P releases:
       - Overview: releases/index.md
       - SDX M2 release: releases/2026-nov.md

@@ -35,12 +35,12 @@ with your P2P operator to confirm what remains.
 | Activity | What's involved | Guidance |
 |---|---|---|
 | **Prepare your API** | Design and build your API using the API standard, validation rules and available testing tools | [Prepare your API](prepare-your-api.md) |
-| **Onboard your organization** | Request a kickoff meeting to discuss organization representation, administrator access and hosting. The P2P operator performs the initial organization setup | [Onboarding an organization](../onboarding-process/onboarding-an-organization.md) |
-| **Set up an Edge Runtime Group** | Learn about the hosting options and discuss the choice with APS. Work with a P2P operator for community hosting, or install a client-hosted Edge Runtime Group | [Install an Edge Runtime Group](../onboarding-process/install-an-edge-runtime-group.md) |
-| **Set up organization signing (optional)** | Discuss applicable signing requirements with APS and, if needed, configure organization signing | [Set up organization signing](../onboarding-process/set-up-organization-signing.md) |
-| **Register your subsystem** | Your System Admin registers the subsystem, assigns its runtime group and sets up team access. Discuss the privacy zone with Identity Assurance Services before recording it | [Managing subsystems](../onboarding-process/managing-subsystems.md) |
-| **Register your service** | Register your API using an OpenAPI specification that meets the validation requirements, along with the target environment and upstream URL. Registration also adds the service to the SDX Catalogue | [Managing services](../onboarding-process/managing-services.md) |
-| **Enable consumer access** | Your Access Manager reviews requests and coordinates discussions with the relevant provider and consumer team members. Approved requests proceed through connection provisioning | [Connecting a service](../onboarding-process/connecting-a-service.md) |
+| **Onboard your organization** | Request a kickoff meeting to discuss organization representation, administrator access and hosting. The P2P operator performs the initial organization setup | [Onboarding an organization](../setup-and-management/onboarding-an-organization.md) |
+| **Set up an Edge Runtime Group** | Learn about the hosting options and discuss the choice with APS. Work with a P2P operator for community hosting, or install a client-hosted Edge Runtime Group | [Install an Edge Runtime Group](../setup-and-management/install-an-edge-runtime-group.md) |
+| **Set up organization signing (optional)** | Discuss applicable signing requirements with APS and, if needed, configure organization signing | [Set up organization signing](../setup-and-management/set-up-organization-signing.md) |
+| **Register your subsystem** | Your System Admin registers the subsystem, assigns its runtime group and sets up team access. Discuss the privacy zone with Identity Assurance Services before recording it | [Managing subsystems](../setup-and-management/managing-subsystems.md) |
+| **Register your service** | Register your API using an OpenAPI specification that meets the validation requirements, along with the target environment and upstream URL. Registration also adds the service to the SDX Catalogue | [Managing services](../setup-and-management/managing-services.md) |
+| **Enable consumer access** | Your Access Manager reviews requests and coordinates discussions with the relevant provider and consumer team members. Approved requests proceed through connection provisioning | [Connecting a service](../setup-and-management/connecting-a-service.md) |
 
 Throughout this process, P2P applies encryption, authentication, policy
 enforcement and audit logging.
@@ -48,7 +48,7 @@ enforcement and audit logging.
 ## Next steps
 
 - [Prepare your API](prepare-your-api.md): Review the API preparation guidance.
-- [Organization onboarding overview](../onboarding-process/onboarding-process.md): Understand the onboarding stages and who is involved.
+- [Organization onboarding overview](../setup-and-management/onboarding-process.md): Understand the onboarding stages and who is involved.
 
 ## Get help
 
