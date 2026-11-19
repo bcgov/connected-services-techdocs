@@ -43,8 +43,6 @@ flowchart TD
     D --> E["P2P operator completes organization setup"]
     E --> F["Operator updates the ticket and adds System Admins"]
     F --> G["System Admins follow the next setup instructions"]
-    classDef default fill:#D8EAFD,stroke:#013366,color:#2D2D2D,stroke-width:2px;
-    linkStyle default stroke:#013366,stroke-width:2px,color:#2D2D2D;
 ```
 
 *Provider onboarding kickoff and initial setup*
