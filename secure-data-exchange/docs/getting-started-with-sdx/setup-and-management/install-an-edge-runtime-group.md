@@ -147,7 +147,7 @@ will be used to route traffic to this runtime group.
     | `name` | Unique identifier (lowercase alphanumeric text between 3 and 8 characters) |
     | `environment` | Target environment |
     | `sdxEndpoint` | Routable IP-based endpoint from the internet (example above is the Gold ingress IP) |
-    | `consumerEndpoint` | Domain that the Runtime Group uses automatically (port 8000, internal.<EDGE_DOMAIN>) |
+    | `consumerEndpoint` | Domain that the Runtime Group uses automatically (port 8000, internal.\<EDGE_DOMAIN>) |
     | `hostedOrganizations` | List of all the organizations that are permitted to use this particular Runtime Group |
 
 ### Register a runtime group gateway

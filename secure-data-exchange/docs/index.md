@@ -8,7 +8,7 @@ title: Peer-to-Peer (P2P)
     Secure Data Exchange (SDX) is becoming peer-to-peer (P2P). Both names
     refer to the same service. You may still see SDX in interfaces,
     documentation and integrations while the name change progresses across
-    teams. Some names, including **SDX Catalog**, remain unchanged.
+    teams. Some names, including **SDX Catalogue**, remain unchanged.
 
 ## At a glance
 

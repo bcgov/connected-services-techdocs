@@ -45,7 +45,7 @@ Use cases:
 
 - Building a service API
 - Register a service
-- View API service catalog
+- View API service catalogue
 - Verification testing
 - Subsystem management
   - Delete a service

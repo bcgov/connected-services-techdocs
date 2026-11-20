@@ -196,7 +196,7 @@ Edge-to-Edge routing and trust headers are not included.
 
 SDX always sets `X-SDX-Client-Subsystem-Id` from the client subsystem on the
 provisioned connection. The `X-SDX` prefix identifies SDX as the source, and
-`Client-Subsystem-Id` states the value's catalog meaning. SDX removes a value
+`Client-Subsystem-Id` states the value's catalogue meaning. SDX removes a value
 supplied by the calling client before adding the authoritative value.
 
 `X-SDX-Original-AZP` records the `azp` claim from the verified token received
