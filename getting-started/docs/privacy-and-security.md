@@ -1,21 +1,19 @@
 ---
 title: Privacy and security
 ---
-# Building trusted digital services
+# Privacy and security
 
-## Privacy and security
+Peer-to-Peer (P2P) provides the secure, policy-driven trust foundation for data exchange that crosses privacy zones between organizations or that involves private information. For data exchange that doesn't meet that bar, the API Services Portal may be the right path instead. See [API Services Portal](api-services-portal.md) for its approach to access and security.
 
-Secure Data Exchange (SDX) provides the secure, policy-driven trust foundation for data exchange that crosses privacy zones between organizations or that involves private information. For data exchange that doesn't meet that bar, the API Services Portal may be the right path instead. See [API Services Portal](api-services-portal.md) for its approach to access and security.
+This page describes the privacy and security model that applies when P2P is used.
 
-This page describes the privacy and security model that applies when SDX is used.
-
-SDX does not centralize or store program data. Data remains with the ministry or public body that owns it. Instead, it enables secure, auditable exchange between trusted systems.
+P2P does not centralize or store program data. Data remains with the ministry or public body that owns it. Instead, it enables secure, auditable exchange between trusted systems.
 
 Privacy and security controls are embedded into the technical design, not added afterward.
 
-### Secure exchange by design
+## Secure exchange by design
 
-When data exchange crosses privacy zones between organizations or involves private information, it goes through Secure Data Exchange (SDX). SDX enforces these controls:
+When data exchange crosses privacy zones between organizations or involves private information, it goes through Peer-to-Peer (P2P). P2P enforces these controls:
 
 - Authentication of participating systems
 - Verification that requests are unaltered
@@ -24,11 +22,11 @@ When data exchange crosses privacy zones between organizations or involves priva
 
 These controls ensure that only authorized, policy-compliant requests are fulfilled.
 
-For technical details on how SDX implements these controls, including request verification and Edge Server architecture, see [Secure Data Exchange (SDX)](secure-data-exchange.md).
+For technical details on how P2P implements these controls, including request verification and Edge Server architecture, see [Peer-to-Peer (P2P)](secure-data-exchange.md).
 
-### Data ownership and control
+## Data ownership and control
 
-SDX does not take ownership of ministry or public body data, such as ICBC data.
+P2P does not take ownership of ministry or public body data, such as ICBC data.
 
 - Ministries and public bodies remain custodians of their data
 - Access decisions are enforced based on predefined policies
@@ -37,7 +35,7 @@ SDX does not take ownership of ministry or public body data, such as ICBC data.
 
 This model supports working across systems while preserving program accountability.
 
-### Identity and access enforcement
+## Identity and access enforcement
 
 Access is controlled at request time using short-lived, scoped tokens.
 
@@ -49,7 +47,7 @@ Each request must meet these conditions:
 
 Access enforcement is automated and consistent across participants.
 
-### Logging, audit, and transparency
+## Logging, audit, and transparency
 
 All transactions are logged automatically.
 
@@ -60,7 +58,7 @@ All transactions are logged automatically.
 
 This design supports transparency while minimizing data exposure.
 
-### Scaling securely
+## Scaling securely
 
 As more capabilities and partners are added over time, the same trust and security foundation applies.
 
@@ -70,7 +68,7 @@ As more capabilities and partners are added over time, the same trust and securi
 
 This helps this work grow securely across ministries.
 
-### How decisions are defined
+## How decisions are defined
 
 Privacy and security controls enforce rules, but those rules are established through governance and policy direction.
 

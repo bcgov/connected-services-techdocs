@@ -1,0 +1,258 @@
+---
+title: Managing services
+---
+
+# Managing services
+
+## At a glance
+
+**On this page:** Preparing and registering a provider API, viewing registered services and specifications, verification testing and service deletion.
+
+**When to use it:** When your organization is preparing to publish an API through P2P or managing an existing service.
+
+**Who is involved:** Tech Leads from the organization providing the API. Some operations require the permissions identified in the technical reference.
+
+## Managing your provider services
+
+Services represent the APIs your organization makes available through P2P
+for other authorized systems to discover and connect to.
+
+The provider's Tech Lead registers the service using an OpenAPI specification.
+Registration also adds the service to the SDX Catalogue.
+
+If you are still designing or building your API, review
+[Prepare your API](../publish-a-service/prepare-your-api.md) for the available
+standards, validation and testing resources.
+
+Before registering a service, complete the applicable organization,
+Edge Runtime Group and [subsystem setup](managing-subsystems.md).
+Review [Environment labels](../environments.md#environment-labels)
+to identify the target environment.
+
+## Technical reference
+
+The following sections are for provider Tech Leads building, registering
+and managing services. Individual operations may require additional
+permissions, as identified below.
+
+The steps described in this page are performed by users with the following roles:
+
+| Role | Function |
+|---|---|
+| Tech Lead | Subsystem-level role for managing services for a subsystem |
+
+Use cases:
+
+- Building a service API
+- Register a service
+- View API service catalogue
+- Verification testing
+- Subsystem management
+  - Delete a service
+
+### Prerequisites
+
+- [Install Restish CLI](/docs/default/component/aps-infra-platform-docs/reference/restish-cli/)
+
+### Building a service API
+
+#### OpenAPI Specification
+
+An OpenAPI specification must be created following the [SDX API standard](https://developer.gov.bc.ca/docs/default/component/sdx-api-standards-techdocs).
+
+#### Resource Scopes
+
+Scopes will use the following structure (described in BCNF):
+
+```text
+scope           = namespace ":" resource { ":" resource } ":" action ;
+namespace       = identifier ;
+resource        = identifier ;
+action          = identifier ;
+identifier      = letter { letter | digit | "-" | "_" } ;
+letter          = "a"…"z" ;
+digit           = "0"…"9" ;
+```
+
+The `namespace` will be organization-based - refer to the [BC Gov Org Structure](https://dir.gov.bc.ca/internal/gtds.cgi?Index=ByUnitHier) for organization codes.
+
+#### P2P Emulator
+
+!!! note "Placeholder — provider testing guidance"
+
+    This section introduces the development emulator. A complete provider
+    walkthrough and environment-specific trust configuration will be added
+    after validation with the APS team.
+
+The P2P Emulator generates signed subject tokens, P2P Edge Runtime tokens and
+request headers to help test a provider API with sample identities and resource
+scopes. It returns the tokens and headers; it does not call your API for you.
+
+[Request access to the P2P Emulator through the API Directory](https://api.gov.bc.ca/devportal/api-directory/4443).
+Once access has been granted:
+
+1. Open the [P2P Emulator development app](https://sdx-p2p-emu-api-gov-bc-ca.dev.api.gov.bc.ca/).
+2. Select **Authorize** and enter the Client ID and Client Secret supplied for
+   emulator API access.
+3. Enter a test **Subject identifier**, **Initial AZP**, **Client Subsystem**
+   and the resource scopes to exercise, then select **Generate access token**.
+   A saved profile is optional.
+4. Use the returned headers when calling your test API. The OAuth token used
+   to access the emulator is separate from the generated subject token sent
+   to your API.
+
+Use synthetic identities and test data. Confirm the emulator's subject-token
+and Edge Runtime signing-key trust with your operator before testing; emulator
+results do not establish that a live P2P connection is approved or provisioned.
+
+### Register a service
+
+Once the development and testing phase is complete and your service is built and ready
+to go to production, you can setup the service on P2P.
+
+To register a service, you need to identify the `environment` you are deploying the service
+to, the `upstream URL` for routing to where your service is running,
+and the OpenAPI specification itself.
+
+For details about valid `environment` values, visit [Environment labels](../environments.md#environment-labels).
+
+=== "Restish CLI"
+
+    Help information about the operation:
+
+    ```sh
+    restish sdx upsert-oas-service
+    ```
+
+    Example:
+
+    ```sh
+    restish sdx upsert-oas-service \
+      my-org \
+      --subsystem MY-NEW-SUBSYSTEM \
+      --environment bct \
+      --upstream-url "https://your-upstream-endpoint" \
+      --rsh-header "Content-Type: application/yaml" \
+      < openapi.yaml
+    ```
+
+!!! note "OAS security scopes are not automatically enforced"
+
+    Distinct OpenAPI `security` scopes declared per-operation (read, create,
+    update, delete, etc.) are **not** automatically converted into
+    route-level runtime authorization. Registering an OAS that declares
+    scopes does not by itself restrict which operations a caller with a
+    valid token can reach. Runtime access control must be configured
+    explicitly through connection `upgrades` — see the `token`,
+    `consumerMatch`, and `tokenExchange` options in
+    [Connection Resources](connection-resources.md) and the
+    [JWT Keycloak plugin](/docs/default/component/aps-infra-platform-docs/reference/plugins/jwt-keycloak/) — and, as
+    deployed today, the JWT guard verifies the token's signature, issuer,
+    expiry, and `sub`, but does not itself verify `scope`, audience, or
+    authorized party. Treat declared OAS scopes as descriptive metadata
+    until per-operation enforcement is explicitly configured.
+
+#### Troubleshooting service registration
+
+An `upsert-oas-service` request can return `HTTP 503`,
+`validation_service_unavailable`, `OAS validation service unavailable` for
+two different reasons that look identical to the caller:
+
+- the validation service is genuinely unreachable or timed out, or
+- the validation service is reachable and responded, but its internal rules
+  engine failed to process the document (for example, a Spectral rule
+  throwing on a legitimate `null` value in the document).
+
+Both cases currently surface as the same `503`. If you hit this error:
+
+- retry once to rule out a transient network/timeout issue;
+- if it persists, check whether the validator's `/versions` endpoint is
+  reachable and returning `200` — if it is, the failure is more likely in
+  the rules engine than in service availability;
+- if the failure appears tied to a specific document construct (for
+  example, a nullable field with an explicit `null` example value), report
+  it to the APS team with the offending OAS fragment rather than continuing
+  to retry.
+
+### View API service catalog
+
+=== "Restish CLI"
+
+    List all subsystems:
+
+    ```sh
+    restish sdx subsystems-list
+    ```
+
+    List only name and title of APIs:
+
+    ```sh
+    restish sdx list-service-catalog | jq '.[] | .name+": "+.title'
+    ```
+
+#### Retrieve a service's OpenAPI Description (OAD)
+
+The registered OAD for a service can be retrieved two ways:
+
+- publicly, with no credentials required:
+
+  ```text
+  GET /ds/api/sdx/v1/catalog/services/{serviceId}/oas-spec
+  ```
+
+- organization-scoped, requiring `System.Manage`, via the
+  `get-organization-service-spec` Restish operation.
+
+Neither operation returns the fully SDX-transformed publication artifact
+described by the SDX API Standard. The stored document is
+validation-enriched only — registration adds `x-csbc-api-standard` and
+`x-csbc-api-standard-ruleset` under `info`, recording the validation
+service's version and ruleset — but the `servers` section, OAuth endpoints,
+and provider `info.contact` are otherwise returned as uploaded, and no SDX
+`externalDocs` is added. Do not assume the retrieved document's `servers` or
+OAuth URLs are environment-correct without further transformation.
+
+`x-csbc-api-standard` here records the validation service version, not a
+provider-declared API standard release name; treat its meaning as
+implementation-specific until this is reconciled with the SDX API Standard.
+
+An interactive Swagger UI is not currently provided through P2P for a
+registered service; only the OAD retrieval operations above are available.
+
+### Verification testing
+
+Perform the steps found in the [Connecting a Service](connecting-a-service.md)
+documentation.
+
+### Service management
+
+#### Delete a service
+
+A service can be deleted when there are no active connection requests for it.
+
+=== "Restish CLI"
+
+    Help information about the operation:
+
+    ```sh
+    restish sdx delete-organization-oas-service
+    ```
+
+    Example:
+
+    ```sh
+    restish sdx delete-organization-oas-service \
+      my-org SERVICE-NAME
+    ```
+
+The delete request will not proceed if the service has active connection requests.
+
+After a service is deleted, the same service name can be used again.
+
+## Next steps
+
+- [Connecting a service](connecting-a-service.md): Follow the guidance for connection requests, provider review and verification testing.
+- [Publish a service](../publish-a-service/overview.md): Return to the provider journey.
+
+Use your onboarding JSM ticket to ask questions and coordinate next steps
+with the P2P operator.

@@ -4,7 +4,7 @@ title: Integration Toolkit (ITK)
 
 Finding information about the government's technical products and services can be hard. You often need to check multiple systems or ask around to find out who owns what. 
 
-*Integration Toolkit* (ITK) is the landing zone for data providers. It's where you get a plain-language introduction to the areas involved, such as authoritative data, eligibility checks, secure data exchange, and datasets, before going deeper into any one area's own documentation. Over time, ITK is expected to grow into a single, end-to-end resource for the whole provider path, right now, it's your starting point for understanding what's out there. 
+*Integration Toolkit* (ITK) is the landing zone for data providers. It's where you get a plain-language introduction to the areas involved, such as authoritative data, eligibility checks, Peer-to-Peer, and datasets, before going deeper into any one area's own documentation. Over time, ITK is expected to grow into a single, end-to-end resource for the whole provider path, right now, it's your starting point for understanding what's out there. 
 
 ITK isn't a separate application or portal. You won't find a button, portal, or menu item called "Integration Toolkit" in DevHub. Right now, ITK is documentation. This page, and the ones it links to, help you understand what's involved and how to get started. 
 
@@ -12,7 +12,7 @@ ITK points to [five areas](/docs/default/component/integration-toolkit-techdocs/
 
 - Authoritative Data Registers (ADR): shared terms, definitions, and standards for data 
 - Eligibility Factor Verification (EFV): checking eligibility against authoritative sources 
-- Secure Data Exchange (SDX): ensuring that data sharing is secure, policy-aligned, and auditable
+- Peer-to-Peer (P2P): ensuring that data sharing is secure, policy-aligned, and auditable
 - API Services Portal: a central gateway for connecting APIs across government
 - BC Data Catalogue (BCDC): datasets available across government 
 

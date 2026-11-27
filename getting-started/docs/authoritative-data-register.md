@@ -1,11 +1,9 @@
 ---
 title: Authoritative Data Register (ADR) 
 ---
-# Building trusted digital services
+# Authoritative Data Register (ADR) 
 
-## Authoritative Data Register (ADR) 
-
-### What it is 
+## What it is 
 
 _Authoritative Data_ is a dataset formally designated as the trusted source for a specific purpose within government. 
 
@@ -13,7 +11,7 @@ The ADR service provides the governance process that identifies, assesses, certi
 
 Authoritative status is contextual. A dataset is authoritative for **a defined scope and use case**, not for all purposes. 
 
-### Who this is for 
+## Who this is for 
 
 ADR supports both those who publish authoritative data and those who integrate with it. 
 
@@ -29,7 +27,7 @@ ADR supports both those who publish authoritative data and those who integrate w
 - Program and policy leads 
 - Data managers 
 
-### When to use authoritative data 
+## When to use authoritative data 
 
 Use Authoritative Data when: 
 
@@ -41,7 +39,7 @@ Use Authoritative Data when:
 
 Do not assume that all datasets are authoritative. Always confirm status before integrating. 
 
-### How ADR works (high level) 
+## How ADR works (high level) 
 
 ADR formalizes how datasets are reviewed and certified. 
 

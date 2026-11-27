@@ -1,26 +1,38 @@
-site_name: "Secure Data Exchange Documentation"
-site_description: "Documentation for Secure Data Exchange (SDX)"
+site_name: "Peer-to-Peer Documentation"
+site_description: "Documentation for Peer-to-Peer (P2P)"
 docs_dir: "docs"
 repo_url: "https://github.com/bcgov/connected-services-techdocs"
 edit_uri: edit/main/secure-data-exchange/docs/
+
 nav:
   - Introduction: index.md
-  - Getting Started with SDX:
-      - SDX roles and responsibilities: getting-started-with-sdx/sdx-roles-and-responsibilities.md
+  - Getting started with P2P:
+      - P2P roles and responsibilities: getting-started-with-sdx/sdx-roles-and-responsibilities.md
       - Environments: getting-started-with-sdx/environments.md
-      - Publish a service: getting-started-with-sdx/publish-a-service.md
-      - Consume a service: getting-started-with-sdx/consume-a-service.md
-      - Onboarding process:
-          - Overview: getting-started-with-sdx/onboarding-process/onboarding-process.md
-          - Onboarding an organization: getting-started-with-sdx/onboarding-process/onboarding-an-organization.md
-          - Install an Edge Runtime Group: getting-started-with-sdx/onboarding-process/install-an-edge-runtime-group.md
-          - Set Up Organization Signing: getting-started-with-sdx/onboarding-process/set-up-organization-signing.md
-          - Managing Subsystems: getting-started-with-sdx/onboarding-process/managing-subsystems.md
-          - Managing Services: getting-started-with-sdx/onboarding-process/managing-services.md
-          - Connecting a Service: getting-started-with-sdx/onboarding-process/connecting-a-service.md
-          - Connection Resources: getting-started-with-sdx/onboarding-process/connection-resources.md
-  - Experimental Features – LAB Only: experimental-features.md
-  - References: references.md
+      - Publish a service:
+          - Overview: getting-started-with-sdx/publish-a-service/overview.md
+          - Prepare your API: getting-started-with-sdx/publish-a-service/prepare-your-api.md
+      - Consume a service:
+          - Overview: getting-started-with-sdx/consume-a-service/overview.md
+      - Setup and management:
+          - Organization onboarding overview: getting-started-with-sdx/setup-and-management/organization-onboarding-overview.md
+          - Onboarding an organization: getting-started-with-sdx/setup-and-management/onboarding-an-organization.md
+          - Install an Edge Runtime Group: getting-started-with-sdx/setup-and-management/install-an-edge-runtime-group.md
+          - Set up organization signing: getting-started-with-sdx/setup-and-management/set-up-organization-signing.md
+          - Managing subsystems: getting-started-with-sdx/setup-and-management/managing-subsystems.md
+          - Managing services: getting-started-with-sdx/setup-and-management/managing-services.md
+          - Connecting a service: getting-started-with-sdx/setup-and-management/connecting-a-service.md
+          - Connection resources: getting-started-with-sdx/setup-and-management/connection-resources.md
+  - Experimental features – LAB only:
+      - Event management: experimental-features/sdx-ape-event-mgmt.md
+      - Policy management: experimental-features/sdx-ape-policy-mgmt.md
+  - Reference:
+      - P2P routing contract: getting-started-with-sdx/reference/p2p-routing-contract.md
+      - Data access protocol: getting-started-with-sdx/reference/data-access-protocol.md
+  - P2P releases:
+      - Overview: releases/index.md
+      - SDX M2 release: releases/2026-nov.md
+      - SDX M1 release: releases/2026-sep.md
   - Support: support.md
 
 plugins:

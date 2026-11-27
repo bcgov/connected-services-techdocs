@@ -1,9 +1,7 @@
 ---
 title: Support
 ---
-# Building trusted digital services
-
-## Support
+# Support
 
 Support is available for teams building a trusted digital service.
 

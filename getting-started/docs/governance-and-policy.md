@@ -1,9 +1,7 @@
 ---
 title: Governance and policy
 ---
-# Building trusted digital services
-
-## Governance and policy
+# Governance and policy
 
 Clear governance and policy direction supports responsible, consistent data sharing across ministries.
 
@@ -13,7 +11,7 @@ Some governance structures are already in place. Others will keep evolving as th
 
 Transparency is a core principle of this governance model. It means being clear about how decisions are made and how data is used. This is also what makes Connected Services BC's broader commitment possible: giving people visibility over their own data.
 
-### Evolving governance model
+## Evolving governance model
 
 These building blocks are starting with an initial use case. Governance and policy frameworks are actively being built to support it.
 
@@ -23,7 +21,7 @@ As more capabilities are introduced over time, governance processes will mature 
 
 Governance decisions, standards, and supporting documentation will be published as they're formalized.
 
-### What governance covers
+## What governance covers
 
 This governance applies across:
 
@@ -35,7 +33,7 @@ This governance applies across:
 
 These areas help ensure data reuse is consistent, auditable, and policy-aligned.
 
-### A quick example
+## A quick example
 
 Say a ministry's address dataset is proposed as a candidate for authoritative designation. This is the kind of dataset that could eventually support a “tell us once” approach to address updates across programs.
 
@@ -45,7 +43,7 @@ The review results in a decision. The dataset is designated, deferred, or declin
 
 The ministry's data custodian stays responsible for keeping the dataset accurate afterward. Designation isn't a one-time check; it's an ongoing responsibility. The decision, and the reasoning behind it, becomes part of the governance record.
 
-### Roles and accountability
+## Roles and accountability
 
 Governance does not remove data ownership from ministries.
 
@@ -56,12 +54,12 @@ Governance does not remove data ownership from ministries.
 
 Clear accountability across technical and program areas is essential to maintaining trust.
 
-### Relationship to privacy and security
+## Relationship to privacy and security
 
-Governance and policy sets the rules and accountability structures. Privacy and security shows how those rules are technically enforced through Secure Data Exchange (SDX) and related controls.
+Governance and policy sets the rules and accountability structures. Privacy and security shows how those rules are technically enforced through Peer-to-Peer (P2P) and related controls.
 
 Review [Privacy and security](privacy-and-security.md) for details on technical enforcement.
 
-### Who participates
+## Who participates
 
 Governance depends on clearly defined roles across ministries and technical teams. To see how different people contribute, review [Roles and responsibilities](roles-and-responsibilities.md).
