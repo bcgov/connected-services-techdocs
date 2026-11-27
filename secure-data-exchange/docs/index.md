@@ -112,7 +112,7 @@ connect its systems to the P2P platform and to the other organization involved
 in an exchange. P2P also uses shared trust services to support secure,
 traceable exchanges.
 
-![SDX Architecture](artifacts/SDX.svg)
+![P2P Architecture](artifacts/SDX.svg)
 
 *Figure 1. High-level view of P2P*
 
