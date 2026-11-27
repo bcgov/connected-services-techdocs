@@ -24,7 +24,7 @@ This documentation is the starting point for understanding these building blocks
 
 This documentation is available now. Some building blocks, like Secure Data Exchange, are further along than others. Check each page for its current status.
 
-### Learn more
+## Learn more
 
 To understand the broader purpose behind these building blocks, review [Purpose and value](purpose-and-value.md).
 

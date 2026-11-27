@@ -1,9 +1,7 @@
 ---
 title: Purpose and value
 ---
-# Building trusted digital services
-
-## Purpose and value
+# Purpose and value
 
 Government programs often need information that already exists in another ministry or system.
 
@@ -29,7 +27,7 @@ As these capabilities become available, they're designed to support both sides o
 
 See [Trusted digital service building blocks](building-blocks.md) for more on how these components work together, and [Roles and responsibilities](roles-and-responsibilities.md) for how provider and consumer roles fit into this work.
 
-### A quick example
+## A quick example
 
 Say a ministry is launching a new income-support program. It needs to confirm applicants meet an income requirement.
 
@@ -39,7 +37,7 @@ Eligibility Factor Verification (EFV) is developing an income verification check
 
 That's the value these building blocks are working toward: less duplicate work, more consistent decisions, and secure, accountable data reuse.
 
-### What this means for you
+## What this means for you
 
 The building blocks are at different stages. Some are operating services today, while others are still being developed or expanded. The integrated journey described in this documentation is also evolving as the building blocks become more closely connected.
 
@@ -69,7 +67,7 @@ For data custodians, data managers, and data providers, they will support:
 
 Together, these building blocks are intended to help developers and program teams create digital services that are consistent, secure and work well together across government. Available capabilities and the connections between them will continue to expand over time.
 
-### Explore the components
+## Explore the components
 
 A trusted digital service is delivered through reusable building blocks.
 

@@ -1,11 +1,9 @@
 ---
 title: Secure Data Exchange (SDX)
 ---
-# Building trusted digital services
+# Secure Data Exchange (SDX)
 
-## Secure Data Exchange (SDX)
-
-### What it is
+## What it is
 
 _Secure Data Exchange_ (SDX) helps organizations safely share sensitive information with each other.
 
@@ -22,7 +20,7 @@ SDX protects exchanges by:
 
 Together, these controls help organizations protect sensitive information and support B.C.'s security, privacy, and regulatory requirements.
 
-### Who should use SDX
+## Who should use SDX
 
 SDX is for organizations participating in Connected Services that need to share sensitive information with other organizations.
 
@@ -34,7 +32,7 @@ An organization can:
 - Consume information or services provided by another organization
 - Do both
 
-### When you should use SDX
+## When you should use SDX
 
 Use SDX when information needs to be shared between organizations and the exchange needs stronger security, access control, or accountability.
 
@@ -47,7 +45,7 @@ SDX may be appropriate when:
 
 SDX is generally not needed for public or non-sensitive information that does not require these additional controls.
 
-### How it works
+## How it works
 
 Organizations complete the SDX onboarding process before exchanging information. Onboarding sets up the organization, its systems, roles, and secure connections.
 
@@ -61,7 +59,7 @@ SDX Edge Servers provide the secure connection used by participating organizatio
 
 For more details including setup instructions, see [Getting started with SDX documentation](/docs/default/component/secure-data-exchange-techdocs/).
 
-### Privacy and security responsibilities
+## Privacy and security responsibilities
 
 SDX provides technical controls that help organizations meet privacy and security requirements.
 
@@ -69,6 +67,6 @@ Using SDX does not replace an organization's responsibility to meet its own priv
 
 See [Privacy and security](privacy-and-security.md) for more information about organizational responsibilities and accountability.
 
-### Where to go next
+## Where to go next
 - [Getting started with SDX documentation](/docs/default/component/secure-data-exchange-techdocs/)
 - Or go directly to [SDX onboarding documentation](/docs/default/component/aps-infra-platform-docs/how-to/sdx-org-onboarding/)

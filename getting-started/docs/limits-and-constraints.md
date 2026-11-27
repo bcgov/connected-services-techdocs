@@ -1,15 +1,13 @@
 ---
 title: Limits and constraints
 ---
-# Building trusted digital services
-
-## Limits and constraints 
+# Limits and constraints 
 
 This work is starting with an initial use case. It will expand iteratively over time.
 
 Connected Services BC's long-term direction is for every high-impact life event or business interaction in B.C. to be a trusted, connected service by 2030. Right now, the focus is on building the foundational pieces that make that possible.
 
-### Current scope 
+## Current scope 
 
 At this stage: 
 
@@ -21,7 +19,7 @@ At this stage:
 
 These building blocks already improve on past approaches. Full consolidation and standardization will take more time.
 
-### Incremental expansion 
+## Incremental expansion 
 
 As more building blocks and use cases are added, expect these changes:
 
@@ -31,7 +29,7 @@ As more building blocks and use cases are added, expect these changes:
 
 Capabilities will grow step by step, not all at once.
 
-### What this means for teams 
+## What this means for teams 
 
 Teams should:
 
