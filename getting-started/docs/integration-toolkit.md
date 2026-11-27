@@ -5,9 +5,9 @@ title: Integration Toolkit (ITK)
 
 ## What is this?
 
-The *Integration Toolkit* (ITK) is documentation that brings together information about the building blocks used to build a trusted digital service: Authoritative Data Register (ADR), Eligibility Factor Verification (EFV), Secure Data Exchange (SDX), API Services Portal, and BC Data Catalogue (BCDC). It explains what each one does, how they relate to each other, and where to go to learn more.
+The *Integration Toolkit* (ITK) is documentation that brings together information about the building blocks used to build a trusted digital service: Authoritative Data Register (ADR), Eligibility Factor Verification (EFV), Peer-to-Peer (P2P), API Services Portal, and BC Data Catalogue (BCDC). It explains what each one does, how they relate to each other, and where to go to learn more.
 
-ITK isn't a separate application, portal, or catalogue. Right now, it's documentation—this page and the pages it links to—and it's expected to grow into a more complete, end-to-end guide as the building blocks themselves mature.
+ITK isn't a separate application, portal, or catalogue. Right now, it's documentation—this page and the pages it links to—and it's expected to grow into a more complete, end-to-end guide as the building blocks themselves mature. 
 
 ## Who is this for?
 
@@ -20,7 +20,7 @@ Use ITK when you're trying to understand what's involved in building a trusted d
 
 ## How it works (high-level)
 
-Right now, ITK provides connective guidance across the provider journey. It explains how the building blocks, such as authoritative data, eligibility checks, and secure data exchange, relate to each other, and points you to each one's own documentation to go deeper.
+Right now, ITK provides connective guidance across the provider journey. It explains how the building blocks, such as authoritative data, eligibility checks, and Peer-to-Peer, relate to each other, and points you to each one's own documentation to go deeper.
 
 Over time, the goal is for that path to become more guided, walking you through a full integration from start to finish, rather than handing you off to separate documentation for each piece.
 

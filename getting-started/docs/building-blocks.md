@@ -5,7 +5,7 @@ title: Trusted digital service building blocks
 
 Building a trusted digital service means drawing on reusable building blocks that work together to support secure, consistent data reuse across government.
 
-Each building block plays a specific role in supporting the people who provide trusted data and the people who consume it. For example, a data custodian registering a dataset as authoritative is a provider. A developer connecting to that data through Secure Data Exchange is a consumer. Together, these building blocks reduce duplicate integrations, improve data trust, and support more seamless service delivery.
+Each building block plays a specific role in supporting the people who provide trusted data and the people who consume it. For example, a data custodian registering a dataset as authoritative is a provider. A developer connecting to that data through Peer-to-Peer is a consumer. Together, these building blocks reduce duplicate integrations, improve data trust, and support more seamless service delivery.
 
 ## Authoritative Data Register (ADR)
 
@@ -28,13 +28,13 @@ EFVs reduce manual verification and help standardize eligibility checks across p
 
 [Learn more about EFV](eligibility-factor-verification.md).
 
-## Secure Data Exchange (SDX)
+## Peer-to-Peer (P2P)
 
-*Secure Data Exchange* provides a governed way to move approved data between systems.
+*Peer-to-Peer* provides a governed way to move approved data between systems.
 
 It ensures that data sharing is secure, policy-aligned, and auditable. Teams don't need to build a custom integration for each connection.
 
-[Learn more about SDX](secure-data-exchange.md).
+[Learn more about P2P](secure-data-exchange.md).
 
 ## API Services Portal
 

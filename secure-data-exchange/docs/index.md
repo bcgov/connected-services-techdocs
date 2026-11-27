@@ -5,7 +5,7 @@ title: Peer-to-Peer (P2P)
 # Peer-to-Peer (P2P)
 
 !!! note "The service name is changing"
-    Secure Data Exchange (SDX) is becoming peer-to-peer (P2P). Both names
+    Secure Data Exchange (SDX) is becoming Peer-to-Peer (P2P). Both names
     refer to the same service. You may still see SDX in interfaces,
     documentation and integrations while the name change progresses across
     teams. Some names, including **SDX Catalogue**, remain unchanged.
@@ -20,7 +20,7 @@ title: Peer-to-Peer (P2P)
 
 ## What is P2P?
 
-*Peer-to-peer* (P2P) enables organizations to share information when additional
+*Peer-to-Peer* (P2P) enables organizations to share information when additional
 security, governance, and privacy controls are required. When one organization
 needs to send information to another, like a government ministry sharing data
 with a delivery partner, P2P handles the security in the background. It makes
